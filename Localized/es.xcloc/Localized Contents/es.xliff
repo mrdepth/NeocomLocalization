@@ -1966,10 +1966,6 @@
         <source>tf</source>
         <note>teraflops</note>
       </trans-unit>
-      <trans-unit id="u{2063}Unknown Location" xml:space="preserve">
-        <source>u{2063}Unknown Location</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="x%@" xml:space="preserve">
         <source>x%@</source>
         <note>No comment provided by engineer.</note>
