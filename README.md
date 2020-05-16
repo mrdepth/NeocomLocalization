@@ -1,4 +1,4 @@
-# NeocomLocalization
+# Neocom Localization
 Localized Constants for Neocom
 
 Localized Constants in XLIFF format. https://en.wikipedia.org/wiki/XLIFF
