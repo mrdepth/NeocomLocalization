@@ -315,6 +315,7 @@
       </trans-unit>
       <trans-unit id="Add Cargo" xml:space="preserve">
         <source>Add Cargo</source>
+        <target>Добавить груз</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Add Module" xml:space="preserve">
@@ -329,6 +330,7 @@
       </trans-unit>
       <trans-unit id="Add Pilot" xml:space="preserve">
         <source>Add Pilot</source>
+        <target>Добавить пилота</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Add Skills" xml:space="preserve">
@@ -589,6 +591,7 @@
       </trans-unit>
       <trans-unit id="Cancel" xml:space="preserve">
         <source>Cancel</source>
+        <target>Отмена</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Cancelled" xml:space="preserve">
@@ -677,6 +680,7 @@
       </trans-unit>
       <trans-unit id="Copy" xml:space="preserve">
         <source>Copy</source>
+        <target>Копировать</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Corporation" xml:space="preserve">
@@ -730,6 +734,7 @@
       </trans-unit>
       <trans-unit id="DESELECT ALL" xml:space="preserve">
         <source>DESELECT ALL</source>
+        <target>СНЯТЬ ВЫБОР</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="DESTROYED" xml:space="preserve">
@@ -838,6 +843,7 @@
       </trans-unit>
       <trans-unit id="Deselect All" xml:space="preserve">
         <source>Deselect All</source>
+        <target>Снять выбор</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Drafts" xml:space="preserve">
@@ -971,6 +977,7 @@
       </trans-unit>
       <trans-unit id="Fitting" xml:space="preserve">
         <source>Fitting</source>
+        <target>Оснащение</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Fitting Editor" xml:space="preserve">
@@ -1004,10 +1011,12 @@
       </trans-unit>
       <trans-unit id="GJ" xml:space="preserve">
         <source>GJ</source>
+        <target>ГДж</target>
         <note>gigaJoule</note>
       </trans-unit>
       <trans-unit id="GJ/s" xml:space="preserve">
         <source>GJ/s</source>
+        <target>ГДж/с</target>
         <note>gigaJoulePerSecond</note>
       </trans-unit>
       <trans-unit id="German" xml:space="preserve">
@@ -1044,7 +1053,7 @@
       </trans-unit>
       <trans-unit id="Homepage" xml:space="preserve">
         <source>Homepage</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Домашняя страница</target>
       </trans-unit>
       <trans-unit id="IMPLANTS" xml:space="preserve">
         <source>IMPLANTS</source>
@@ -1279,10 +1288,12 @@
       </trans-unit>
       <trans-unit id="Log In with EVE Online" xml:space="preserve">
         <source>Log In with EVE Online</source>
+        <target>Войти с EVE Online</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Logout" xml:space="preserve">
         <source>Logout</source>
+        <target>Выйти</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Losses" xml:space="preserve">
@@ -1384,6 +1395,7 @@
       </trans-unit>
       <trans-unit id="Max" xml:space="preserve">
         <source>Max</source>
+        <target>Макс.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Maximum Jump Mass" xml:space="preserve">
@@ -1432,6 +1444,7 @@
       </trans-unit>
       <trans-unit id="Migration" xml:space="preserve">
         <source>Migration</source>
+        <target>Миграция</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Miners" xml:space="preserve">
@@ -1550,6 +1563,10 @@
         <target>Не известно</target>
         <note>Skill Borwser</note>
       </trans-unit>
+      <trans-unit id="Notifications Enabled" xml:space="preserve">
+        <source>Notifications Enabled</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Now" xml:space="preserve">
         <source>Now</source>
         <target>сейчас</target>
@@ -1586,10 +1603,12 @@
       </trans-unit>
       <trans-unit id="Open in Current Window" xml:space="preserve">
         <source>Open in Current Window</source>
+        <target>Открыть в текущем окне</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Open in New Window" xml:space="preserve">
         <source>Open in New Window</source>
+        <target>Открыть в новом окне</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Open:" xml:space="preserve">
@@ -1708,6 +1727,7 @@
       </trans-unit>
       <trans-unit id="Privacy Policy" xml:space="preserve">
         <source>Privacy Policy</source>
+        <target>Политика конфиденциальности</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Public" xml:space="preserve">
@@ -1790,6 +1810,7 @@
       </trans-unit>
       <trans-unit id="Regions" xml:space="preserve">
         <source>Regions</source>
+        <target>Регионы</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Reinforced" xml:space="preserve">
@@ -1806,6 +1827,10 @@
         <source>Repair Rate</source>
         <target>Темп ремонта</target>
         <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Reply" xml:space="preserve">
+        <source>Reply</source>
+        <note>No comment provided by engineer.</note><target>Ответить</target>
       </trans-unit>
       <trans-unit id="Required Skills" xml:space="preserve">
         <source>Required Skills</source>
@@ -1846,6 +1871,7 @@
       </trans-unit>
       <trans-unit id="SELECT ALL" xml:space="preserve">
         <source>SELECT ALL</source>
+        <target>ВЫБРАТЬ ВСЕ</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="SEP" xml:space="preserve">
@@ -1933,6 +1959,7 @@
       </trans-unit>
       <trans-unit id="Search" xml:space="preserve">
         <source>Search</source>
+        <target>Поиск</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Security Status" xml:space="preserve">
@@ -1942,14 +1969,17 @@
       </trans-unit>
       <trans-unit id="Select" xml:space="preserve">
         <source>Select</source>
+        <target>Выбрать</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Select Account" xml:space="preserve">
         <source>Select Account</source>
+        <target>Выбрать аккаунт</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Select All" xml:space="preserve">
         <source>Select All</source>
+        <target>Выбрать все</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Select Ammo" xml:space="preserve">
@@ -1997,6 +2027,7 @@
       </trans-unit>
       <trans-unit id="Share" xml:space="preserve">
         <source>Share</source>
+        <target>Поделиться</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Ship" xml:space="preserve">
@@ -2041,15 +2072,22 @@
       </trans-unit>
       <trans-unit id="Skill Plans" xml:space="preserve">
         <source>Skill Plans</source>
+        <target>Планы обучения</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Skill Queue" xml:space="preserve">
         <source>Skill Queue</source>
+        <target>Очередь обучения</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Skill Training Complete" xml:space="preserve">
         <source>Skill Training Complete</source>
         <target>Изучение завершено</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Skill queue is empty" xml:space="preserve">
+        <source>Skill queue is empty</source>
+        <target>Очередь обучения пуста</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Skills" xml:space="preserve">
@@ -2074,6 +2112,7 @@
       </trans-unit>
       <trans-unit id="Sources" xml:space="preserve">
         <source>Sources</source>
+        <target>Исходный код</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Spanish" xml:space="preserve">
@@ -2170,6 +2209,7 @@
       </trans-unit>
       <trans-unit id="Terms of Use" xml:space="preserve">
         <source>Terms of Use</source>
+        <target>Условия использования</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Text" xml:space="preserve">
@@ -2461,10 +2501,6 @@
         <source>[%@)]</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="a.i = %@" xml:space="preserve">
-        <source>a.i = %@</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="cancelled %@" xml:space="preserve">
         <source>cancelled %@</source>
         <target>отменено %@</target>
@@ -2539,6 +2575,11 @@
         <source>s</source>
         <target>с</target>
         <note>seconds</note>
+      </trans-unit>
+      <trans-unit id="skills in queue" xml:space="preserve">
+        <source>skills in queue</source>
+        <target>навыков в очереди</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="x%@" xml:space="preserve">
         <source>x%@</source>

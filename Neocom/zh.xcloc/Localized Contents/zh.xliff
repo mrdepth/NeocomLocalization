@@ -1297,6 +1297,10 @@
         <source>Not Known</source>
         <note>Skill Borwser</note>
       </trans-unit>
+      <trans-unit id="Notifications Enabled" xml:space="preserve">
+        <source>Notifications Enabled</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Now" xml:space="preserve">
         <source>Now</source>
         <note>No comment provided by engineer.</note>
@@ -1509,6 +1513,10 @@
         <source>Repair Rate</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Reply" xml:space="preserve">
+        <source>Reply</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Required Skills" xml:space="preserve">
         <source>Required Skills</source>
         <note>No comment provided by engineer.</note>
@@ -1715,6 +1723,10 @@
       </trans-unit>
       <trans-unit id="Skill Training Complete" xml:space="preserve">
         <source>Skill Training Complete</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Skill queue is empty" xml:space="preserve">
+        <source>Skill queue is empty</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Skills" xml:space="preserve">
@@ -2057,10 +2069,6 @@
         <source>[%@)]</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="a.i = %@" xml:space="preserve">
-        <source>a.i = %@</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="cancelled %@" xml:space="preserve">
         <source>cancelled %@</source>
         <note>Industry Job Status: cancelled [date]</note>
@@ -2121,6 +2129,10 @@
       <trans-unit id="s" xml:space="preserve">
         <source>s</source>
         <note>seconds</note>
+      </trans-unit>
+      <trans-unit id="skills in queue" xml:space="preserve">
+        <source>skills in queue</source>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="x%@" xml:space="preserve">
         <source>x%@</source>

@@ -1619,6 +1619,11 @@
         <target>Not Known</target>
         <note>Skill Borwser</note>
       </trans-unit>
+      <trans-unit id="Notifications Enabled" xml:space="preserve">
+        <source>Notifications Enabled</source>
+        <target>Notifications Enabled</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Now" xml:space="preserve">
         <source>Now</source>
         <target>Now</target>
@@ -1884,6 +1889,11 @@
         <target>Repair Rate</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Reply" xml:space="preserve">
+        <source>Reply</source>
+        <target>Reply</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Required Skills" xml:space="preserve">
         <source>Required Skills</source>
         <target>Required Skills</target>
@@ -2142,6 +2152,11 @@
       <trans-unit id="Skill Training Complete" xml:space="preserve">
         <source>Skill Training Complete</source>
         <target>Skill Training Complete</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Skill queue is empty" xml:space="preserve">
+        <source>Skill queue is empty</source>
+        <target>Skill queue is empty</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Skills" xml:space="preserve">
@@ -2569,11 +2584,6 @@
         <target>[%@)]</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="a.i = %@" xml:space="preserve">
-        <source>a.i = %@</source>
-        <target>a.i = %@</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="cancelled %@" xml:space="preserve">
         <source>cancelled %@</source>
         <target>cancelled %@</target>
@@ -2649,6 +2659,11 @@
         <source>s</source>
         <target>s</target>
         <note>seconds</note>
+      </trans-unit>
+      <trans-unit id="skills in queue" xml:space="preserve">
+        <source>skills in queue</source>
+        <target>skills in queue</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="x%@" xml:space="preserve">
         <source>x%@</source>
