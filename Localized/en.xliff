@@ -82,6 +82,11 @@
         <target> accuracy: </target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id=" from " xml:space="preserve">
+        <source> from </source>
+        <target> from </target>
+        <note>E.g.: 100 ISK from [PlayerName]</note>
+      </trans-unit>
       <trans-unit id=" lifetime: " xml:space="preserve">
         <source> lifetime: </source>
         <target> lifetime: </target>
@@ -382,11 +387,6 @@
       <trans-unit id="Alliance" xml:space="preserve">
         <source>Alliance</source>
         <target>Alliance</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Aloha" xml:space="preserve">
-        <source>Aloha</source>
-        <target>Aloha</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Any" xml:space="preserve">
@@ -849,11 +849,6 @@
         <target>Drones</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="E.g.: 100 ISK from [PlayerName]" xml:space="preserve">
-        <source>E.g.: 100 ISK from [PlayerName]</source>
-        <target>E.g.: 100 ISK from [PlayerName]</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="EHP: %@" xml:space="preserve">
         <source>EHP: %@</source>
         <target>EHP: %@</target>
@@ -1029,11 +1024,6 @@
         <target>Heavy</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Hello World" xml:space="preserve">
-        <source>Hello World</source>
-        <target>Hello World</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="Hello, World" xml:space="preserve">
         <source>Hello, World</source>
         <target>Hello, World</target>
@@ -1082,11 +1072,6 @@
       <trans-unit id="Implants" xml:space="preserve">
         <source>Implants</source>
         <target>Implants</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Implats" xml:space="preserve">
-        <source>Implats</source>
-        <target>Implats</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="In Progress" xml:space="preserve">
@@ -1484,11 +1469,6 @@
         <target>New Loadout</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Next" xml:space="preserve">
-        <source>Next</source>
-        <target>Next</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="No" xml:space="preserve">
         <source>No</source>
         <target>No</target>
@@ -1829,6 +1809,11 @@
         <target>SKILL PLAN IS EMPTY</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="SKILL PLAN: " xml:space="preserve">
+        <source>SKILL PLAN: </source>
+        <target>SKILL PLAN: </target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="SKILL QUEUE NOTIFICATIONS" xml:space="preserve">
         <source>SKILL QUEUE NOTIFICATIONS</source>
         <target>SKILL QUEUE NOTIFICATIONS</target>
@@ -1837,11 +1822,6 @@
       <trans-unit id="SKILL QUEUE: %@ (%@ skills)" xml:space="preserve">
         <source>SKILL QUEUE: %1$@ (%2$@ skills)</source>
         <target>SKILL QUEUE: %1$@ (%2$@ skills)</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="SKILLPLAN: " xml:space="preserve">
-        <source>SKILLPLAN: </source>
-        <target>SKILLPLAN: </target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="SKILLS" xml:space="preserve">
@@ -2224,6 +2204,11 @@
         <target>Unknown Class %d</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Unknown Error" xml:space="preserve">
+        <source>Unknown Error</source>
+        <target>Unknown Error</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Unknown Location" xml:space="preserve">
         <source>Unknown Location</source>
         <target>Unknown Location</target>
@@ -2232,11 +2217,6 @@
       <trans-unit id="Unknown Type" xml:space="preserve">
         <source>Unknown Type</source>
         <target>Unknown Type</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Unknown error" xml:space="preserve">
-        <source>Unknown error</source>
-        <target>Unknown error</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Unknown ship" xml:space="preserve">
