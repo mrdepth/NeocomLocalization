@@ -1300,7 +1300,7 @@
       </trans-unit>
       <trans-unit id="Notifications Enabled" xml:space="preserve">
         <source>Notifications Enabled</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Benachrichtigungen aktiviert</target>
       </trans-unit>
       <trans-unit id="Now" xml:space="preserve">
         <source>Now</source>
@@ -1516,7 +1516,7 @@
       </trans-unit>
       <trans-unit id="Reply" xml:space="preserve">
         <source>Reply</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Antworten Sie</target>
       </trans-unit>
       <trans-unit id="Required Skills" xml:space="preserve">
         <source>Required Skills</source>
@@ -1728,7 +1728,7 @@
       </trans-unit>
       <trans-unit id="Skill queue is empty" xml:space="preserve">
         <source>Skill queue is empty</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Trainingswarteschlange ist leer</target>
       </trans-unit>
       <trans-unit id="Skills" xml:space="preserve">
         <source>Skills</source>
@@ -2133,7 +2133,7 @@
       </trans-unit>
       <trans-unit id="skills in queue" xml:space="preserve">
         <source>skills in queue</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Skills in Warteschlange</target>
       </trans-unit>
       <trans-unit id="x%@" xml:space="preserve">
         <source>x%@</source>
