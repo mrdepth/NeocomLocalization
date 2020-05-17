@@ -7,11 +7,11 @@
     <body>
       <trans-unit id="CFBundleName" xml:space="preserve">
         <source>Neocom</source>
-        <note>Bundle name</note>
+        <note>Bundle name</note><target>Neocom</target>
       </trans-unit>
       <trans-unit id="Fitting" xml:space="preserve">
         <source>Fitting</source>
-        <note/>
+        <note/><target>Ausrüstung</target>
       </trans-unit>
     </body>
   </file>
@@ -22,7 +22,7 @@
     <body>
       <trans-unit id=" " xml:space="preserve">
         <source> </source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target></target>
       </trans-unit>
       <trans-unit id=" %@" xml:space="preserve">
         <source> %@</source>
@@ -42,7 +42,7 @@
       </trans-unit>
       <trans-unit id=" (%@ players)" xml:space="preserve">
         <source> (%@ players)</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target> (%@ Spieler)</target>
       </trans-unit>
       <trans-unit id=" (%@%)" xml:space="preserve">
         <source> (%1$@%2$)</source>
@@ -66,35 +66,35 @@
       </trans-unit>
       <trans-unit id=" accuracy: " xml:space="preserve">
         <source> accuracy: </source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Präzision: </target>
       </trans-unit>
       <trans-unit id=" from " xml:space="preserve">
         <source> from </source>
-        <note>E.g.: 100 ISK from [PlayerName]</note>
+        <note>E.g.: 100 ISK from [PlayerName]</note><target> von </target>
       </trans-unit>
       <trans-unit id=" lifetime: " xml:space="preserve">
         <source> lifetime: </source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target> Lebensdauer: </target>
       </trans-unit>
       <trans-unit id=" optimal + falloff: " xml:space="preserve">
         <source> optimal + falloff: </source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target> Optimal + Abfall: </target>
       </trans-unit>
       <trans-unit id=" optimal: %@" xml:space="preserve">
         <source> optimal: %@</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target> Optimal: %@</target>
       </trans-unit>
       <trans-unit id=" rate of fire: " xml:space="preserve">
         <source> rate of fire: </source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target> Feuergeschwindigkeit: </target>
       </trans-unit>
       <trans-unit id=" to " xml:space="preserve">
         <source> to </source>
-        <note>E.g.: 100 ISK to [PlayerName]</note>
+        <note>E.g.: 100 ISK to [PlayerName]</note><target> an </target>
       </trans-unit>
       <trans-unit id=" velocity: " xml:space="preserve">
         <source> velocity: </source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target> Geschwindigkeit: </target>
       </trans-unit>
       <trans-unit id="%@" xml:space="preserve">
         <source>%@</source>
@@ -122,7 +122,7 @@
       </trans-unit>
       <trans-unit id="%@ / %@ (%@ SP/h)" xml:space="preserve">
         <source>%1$@ / %2$@ (%3$@ SP/h)</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>%1$@ / %2$@ (%3$@ SP/Std)</target>
       </trans-unit>
       <trans-unit id="%@ / %@ (%@%)" xml:space="preserve">
         <source>%1$@ / %2$@ (%3$@%4$)</source>
@@ -130,52 +130,53 @@
       </trans-unit>
       <trans-unit id="%@ SP/h" xml:space="preserve">
         <source>%@ SP/h</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>%@ SP/Std</target>
       </trans-unit>
       <trans-unit id="%@ Skills" xml:space="preserve">
         <source>%@ Skills</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>%@ Skills</target>
       </trans-unit>
       <trans-unit id="%@ Skills, %@" xml:space="preserve">
         <source>%1$@ Skills, %2$@</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>%1$@ Skills, %2$@</target>
       </trans-unit>
       <trans-unit id="%@ assets" xml:space="preserve">
         <source>%@ assets</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>%@ Besitztümer</target>
       </trans-unit>
       <trans-unit id="%@ better" xml:space="preserve">
         <source>%@ better</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>%@ besser</target>
       </trans-unit>
       <trans-unit id="%@ better.&#10;" xml:space="preserve">
         <source>%@ better.
 </source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>%@ besser.
+</target>
       </trans-unit>
       <trans-unit id="%@ damage done" xml:space="preserve">
         <source>%@ damage done</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>%@ verursachter Schaden</target>
       </trans-unit>
       <trans-unit id="%@ damage done (final blow)" xml:space="preserve">
         <source>%@ damage done (final blow)</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>%@ verursachter Schaden (finaler Schlag)</target>
       </trans-unit>
       <trans-unit id="%@ damage taken" xml:space="preserve">
         <source>%@ damage taken</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>%@ erlitterner Schaden</target>
       </trans-unit>
       <trans-unit id="%@ skills in queue (%@)" xml:space="preserve">
         <source>%1$@ skills in queue (%2$@)</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>%1$@ Skills in der Warteschlange (%2$@)</target>
       </trans-unit>
       <trans-unit id="%@ to level %@" xml:space="preserve">
         <source>%1$@ to level %2$@</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>%1$@ bis Level %2$@</target>
       </trans-unit>
       <trans-unit id="%@ units/day" xml:space="preserve">
         <source>%@ units/day</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>%@ Einheiten/Tag</target>
       </trans-unit>
       <trans-unit id="%@%" xml:space="preserve">
         <source>%1$@%2$</source>
@@ -199,7 +200,7 @@
       </trans-unit>
       <trans-unit id="+%@ more" xml:space="preserve">
         <source>+%@ more</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>+%@ mehr</target>
       </trans-unit>
       <trans-unit id=", " xml:space="preserve">
         <source>, </source>
@@ -215,7 +216,7 @@
       </trans-unit>
       <trans-unit id="0.0 System" xml:space="preserve">
         <source>0.0 System</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>0.0 System</target>
       </trans-unit>
       <trans-unit id="70%" xml:space="preserve">
         <source>70%</source>
@@ -227,119 +228,119 @@
       </trans-unit>
       <trans-unit id="ACCOUNT" xml:space="preserve">
         <source>ACCOUNT</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>KONTO</target>
       </trans-unit>
       <trans-unit id="ACCOUNTS" xml:space="preserve">
         <source>ACCOUNTS</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>KONTEN</target>
       </trans-unit>
       <trans-unit id="ALLIANCES" xml:space="preserve">
         <source>ALLIANCES</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>ALLIANZEN</target>
       </trans-unit>
       <trans-unit id="APR" xml:space="preserve">
         <source>APR</source>
-        <note>Month Abbreviation</note>
+        <note>Month Abbreviation</note><target>APR</target>
       </trans-unit>
       <trans-unit id="AREA EFFECTS" xml:space="preserve">
         <source>AREA EFFECTS</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>BEREICHSEFFEKTE</target>
       </trans-unit>
       <trans-unit id="ATTRIBUTES" xml:space="preserve">
         <source>ATTRIBUTES</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>ATTRIBUTE</target>
       </trans-unit>
       <trans-unit id="AU/s" xml:space="preserve">
         <source>AU/s</source>
-        <note>auPerSecond</note>
+        <note>auPerSecond</note><target>AE/s</target>
       </trans-unit>
       <trans-unit id="AUG" xml:space="preserve">
         <source>AUG</source>
-        <note>Month Abbreviation</note>
+        <note>Month Abbreviation</note><target>AUG</target>
       </trans-unit>
       <trans-unit id="About" xml:space="preserve">
         <source>About</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Über</target>
       </trans-unit>
       <trans-unit id="Account" xml:space="preserve">
         <source>Account</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Konto</target>
       </trans-unit>
       <trans-unit id="Accounts" xml:space="preserve">
         <source>Accounts</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Konten</target>
       </trans-unit>
       <trans-unit id="Actions" xml:space="preserve">
         <source>Actions</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Aktionen</target>
       </trans-unit>
       <trans-unit id="Active" xml:space="preserve">
         <source>Active</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Aktiv</target>
       </trans-unit>
       <trans-unit id="Add Cargo" xml:space="preserve">
         <source>Add Cargo</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Fracht hinzufügen</target>
       </trans-unit>
       <trans-unit id="Add Module" xml:space="preserve">
         <source>Add Module</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Modul hinzufügen</target>
       </trans-unit>
       <trans-unit id="Add New Pattern" xml:space="preserve">
         <source>Add New Pattern</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Neues Muster hinzufügen</target>
       </trans-unit>
       <trans-unit id="Add Pilot" xml:space="preserve">
         <source>Add Pilot</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Pilot hinzufügen</target>
       </trans-unit>
       <trans-unit id="Add Skills" xml:space="preserve">
         <source>Add Skills</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Skills hinzufügen</target>
       </trans-unit>
       <trans-unit id="Add to Skill Plan" xml:space="preserve">
         <source>Add to Skill Plan</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Skillplan hinzufügen</target>
       </trans-unit>
       <trans-unit id="Affecting Skills" xml:space="preserve">
         <source>Affecting Skills</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>beeinflussende Skills</target>
       </trans-unit>
       <trans-unit id="Align time:" xml:space="preserve">
         <source>Align time:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Ausrichtungszeit:</target>
       </trans-unit>
       <trans-unit id="All" xml:space="preserve">
         <source>All</source>
-        <note>Skill Borwser. All skills.</note>
+        <note>Skill Borwser. All skills.</note><target>Alle</target>
       </trans-unit>
       <trans-unit id="All Skills" xml:space="preserve">
         <source>All Skills</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Alle Skills</target>
       </trans-unit>
       <trans-unit id="All Skills " xml:space="preserve">
         <source>All Skills </source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Alle Skills </target>
       </trans-unit>
       <trans-unit id="Alliance" xml:space="preserve">
         <source>Alliance</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Allianz</target>
       </trans-unit>
       <trans-unit id="Any" xml:space="preserve">
         <source>Any</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Jede/r</target>
       </trans-unit>
       <trans-unit id="Application Version" xml:space="preserve">
         <source>Application Version</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Anwendungsversion</target>
       </trans-unit>
       <trans-unit id="Are you sure?" xml:space="preserve">
         <source>Are you sure?</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Sind Sie sicher?</target>
       </trans-unit>
       <trans-unit id="Area Effects" xml:space="preserve">
         <source>Area Effects</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Bereichseffekte</target>
       </trans-unit>
       <trans-unit id="Artem Valiant" xml:space="preserve">
         <source>Artem Valiant</source>
@@ -347,283 +348,283 @@
       </trans-unit>
       <trans-unit id="Assets" xml:space="preserve">
         <source>Assets</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Besitztümer</target>
       </trans-unit>
       <trans-unit id="Attributes" xml:space="preserve">
         <source>Attributes</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Attribute</target>
       </trans-unit>
       <trans-unit id="Auction" xml:space="preserve">
         <source>Auction</source>
-        <note>ESI.ContractType</note>
+        <note>ESI.ContractType</note><target>Auktion</target>
       </trans-unit>
       <trans-unit id="Availability" xml:space="preserve">
         <source>Availability</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Erreichbarkeit</target>
       </trans-unit>
       <trans-unit id="Averaged Facility Performance:" xml:space="preserve">
         <source>Averaged Facility Performance:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Durchschnittliche Leistung der Einrichtung:</target>
       </trans-unit>
       <trans-unit id="B" xml:space="preserve">
         <source>B</source>
-        <note>billions prefix</note>
+        <note>billions prefix</note><target>Mrd</target>
       </trans-unit>
       <trans-unit id="BIDS" xml:space="preserve">
         <source>BIDS</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>GEBOTE</target>
       </trans-unit>
       <trans-unit id="BIO" xml:space="preserve">
         <source>BIO</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>BIOGRAPHIE</target>
       </trans-unit>
       <trans-unit id="BOOSTERS" xml:space="preserve">
         <source>BOOSTERS</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>BOOSTERS</target>
       </trans-unit>
       <trans-unit id="BUSINESS" xml:space="preserve">
         <source>BUSINESS</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>GESCHÄFT</target>
       </trans-unit>
       <trans-unit id="BUYER WILL GET" xml:space="preserve">
         <source>BUYER WILL GET</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>KÄUFER ERHÄLT</target>
       </trans-unit>
       <trans-unit id="BUYER WILL PAY" xml:space="preserve">
         <source>BUYER WILL PAY</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>KÄUFER BEZAHLT</target>
       </trans-unit>
       <trans-unit id="Balance" xml:space="preserve">
         <source>Balance</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Bilanz</target>
       </trans-unit>
       <trans-unit id="Balance: " xml:space="preserve">
         <source>Balance: </source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Bilanz: </target>
       </trans-unit>
       <trans-unit id="Barbican" xml:space="preserve">
         <source>Barbican</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Barbican</target>
       </trans-unit>
       <trans-unit id="Based on current training queue and skill plan." xml:space="preserve">
         <source>Based on current training queue and skill plan.</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Basierend auf aktueller Trainingswarteschlange und Skillplan.</target>
       </trans-unit>
       <trans-unit id="Bloodline" xml:space="preserve">
         <source>Bloodline</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Blutlinie</target>
       </trans-unit>
       <trans-unit id="Blueprints" xml:space="preserve">
         <source>Blueprints</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Blaupause</target>
       </trans-unit>
       <trans-unit id="Bonus Remaps Available" xml:space="preserve">
         <source>Bonus Remaps Available</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Verfügbare Bonus-Umprogrammierungen</target>
       </trans-unit>
       <trans-unit id="Booster Slot %@" xml:space="preserve">
         <source>Booster Slot %@</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Booster Slot %@</target>
       </trans-unit>
       <trans-unit id="Boosters" xml:space="preserve">
         <source>Boosters</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Boosters</target>
       </trans-unit>
       <trans-unit id="Browse %@ Variations" xml:space="preserve">
         <source>Browse %@ Variations</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Durchsuche %@ Variationen</target>
       </trans-unit>
       <trans-unit id="Browse All Skills" xml:space="preserve">
         <source>Browse All Skills</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Durchsuche alle Skills</target>
       </trans-unit>
       <trans-unit id="Button" xml:space="preserve">
         <source>Button</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Knopf</target>
       </trans-unit>
       <trans-unit id="Buy" xml:space="preserve">
         <source>Buy</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Kaufen</target>
       </trans-unit>
       <trans-unit id="Buyers" xml:space="preserve">
         <source>Buyers</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Käufer</target>
       </trans-unit>
       <trans-unit id="By Category" xml:space="preserve">
         <source>By Category</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Nach Kategorie</target>
       </trans-unit>
       <trans-unit id="By Location" xml:space="preserve">
         <source>By Location</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Nach Ort</target>
       </trans-unit>
       <trans-unit id="CACHE" xml:space="preserve">
         <source>CACHE</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>CACHE</target>
       </trans-unit>
       <trans-unit id="CAPACITOR" xml:space="preserve">
         <source>CAPACITOR</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>ENERGIESPEICHER</target>
       </trans-unit>
       <trans-unit id="CHARACTER" xml:space="preserve">
         <source>CHARACTER</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>CHARAKTER</target>
       </trans-unit>
       <trans-unit id="CHARACTERS" xml:space="preserve">
         <source>CHARACTERS</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>CHARAKTERE</target>
       </trans-unit>
       <trans-unit id="CHARGE" xml:space="preserve">
         <source>CHARGE</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>AUFLADUNG</target>
       </trans-unit>
       <trans-unit id="CORPORATIONS" xml:space="preserve">
         <source>CORPORATIONS</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>CORPORATIONS</target>
       </trans-unit>
       <trans-unit id="CURRENT" xml:space="preserve">
         <source>CURRENT</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>AKTUELL</target>
       </trans-unit>
       <trans-unit id="CURRENT: %@" xml:space="preserve">
         <source>CURRENT: %@</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>AKTUELL: %@</target>
       </trans-unit>
       <trans-unit id="CUSTOM" xml:space="preserve">
         <source>CUSTOM</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>BENUTZERDEFINIERT</target>
       </trans-unit>
       <trans-unit id="Calendar" xml:space="preserve">
         <source>Calendar</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Kalender</target>
       </trans-unit>
       <trans-unit id="Can Train" xml:space="preserve">
         <source>Can Train</source>
-        <note>Skill Borwser</note>
+        <note>Skill Borwser</note><target>Kann trainiert werden</target>
       </trans-unit>
       <trans-unit id="Cancel" xml:space="preserve">
         <source>Cancel</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Abbrechen</target>
       </trans-unit>
       <trans-unit id="Cancelled" xml:space="preserve">
         <source>Cancelled</source>
-        <note>ESI.ContractStatus</note>
+        <note>ESI.ContractStatus</note><target>Abgebrochen</target>
       </trans-unit>
       <trans-unit id="Cargo" xml:space="preserve">
         <source>Cargo</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Fracht</target>
       </trans-unit>
       <trans-unit id="Cargo:" xml:space="preserve">
         <source>Cargo:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Fracht:</target>
       </trans-unit>
       <trans-unit id="Categories" xml:space="preserve">
         <source>Categories</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Kategorien</target>
       </trans-unit>
       <trans-unit id="Certificates" xml:space="preserve">
         <source>Certificates</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Zertifikate</target>
       </trans-unit>
       <trans-unit id="Character %d" xml:space="preserve">
         <source>Character %d</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Charakter %d</target>
       </trans-unit>
       <trans-unit id="Character Sheet" xml:space="preserve">
         <source>Character Sheet</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Charakterübersicht</target>
       </trans-unit>
       <trans-unit id="Characters" xml:space="preserve">
         <source>Characters</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Charaktere</target>
       </trans-unit>
       <trans-unit id="Charges" xml:space="preserve">
         <source>Charges</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Aufladungen</target>
       </trans-unit>
       <trans-unit id="Charisma" xml:space="preserve">
         <source>Charisma</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Ausstrahlung</target>
       </trans-unit>
       <trans-unit id="Chinese" xml:space="preserve">
         <source>Chinese</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Chinesisch</target>
       </trans-unit>
       <trans-unit id="Clear" xml:space="preserve">
         <source>Clear</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Löschen</target>
       </trans-unit>
       <trans-unit id="Clear Cache" xml:space="preserve">
         <source>Clear Cache</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Cache leeren</target>
       </trans-unit>
       <trans-unit id="Clone jump availability: " xml:space="preserve">
         <source>Clone jump availability: </source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Verfügbarkeit des nächsten Klonsprungs: </target>
       </trans-unit>
       <trans-unit id="Close" xml:space="preserve">
         <source>Close</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Schließen</target>
       </trans-unit>
       <trans-unit id="Conflux" xml:space="preserve">
         <source>Conflux</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Conflux</target>
       </trans-unit>
       <trans-unit id="Contracts" xml:space="preserve">
         <source>Contracts</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Verträge</target>
       </trans-unit>
       <trans-unit id="Copy" xml:space="preserve">
         <source>Copy</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Kopieren</target>
       </trans-unit>
       <trans-unit id="Corporation" xml:space="preserve">
         <source>Corporation</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Corporation</target>
       </trans-unit>
       <trans-unit id="Cost:" xml:space="preserve">
         <source>Cost:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Kosten:</target>
       </trans-unit>
       <trans-unit id="Courier" xml:space="preserve">
         <source>Courier</source>
-        <note>ESI.ContractType</note>
+        <note>ESI.ContractType</note><target>Kurier</target>
       </trans-unit>
       <trans-unit id="Created with Neocom on iOS" xml:space="preserve">
         <source>Created with Neocom on iOS</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Erstellt mit Neocom auf iOS</target>
       </trans-unit>
       <trans-unit id="Current Cycle:" xml:space="preserve">
         <source>Current Cycle:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Aktueller Zyklus:</target>
       </trans-unit>
       <trans-unit id="Cycle Time:" xml:space="preserve">
         <source>Cycle Time:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Zykluszeit:</target>
       </trans-unit>
       <trans-unit id="DAMAGE PATTERN" xml:space="preserve">
         <source>DAMAGE PATTERN</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>SCHADENSMUSTER</target>
       </trans-unit>
       <trans-unit id="DATABASE" xml:space="preserve">
         <source>DATABASE</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>DATENBANK</target>
       </trans-unit>
       <trans-unit id="DATABASE LANGUAGE" xml:space="preserve">
         <source>DATABASE LANGUAGE</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>DATENBANKSPRACHE</target>
       </trans-unit>
       <trans-unit id="DEC" xml:space="preserve">
         <source>DEC</source>
-        <note>Month Abbreviation</note>
+        <note>Month Abbreviation</note><target>DEZ</target>
       </trans-unit>
       <trans-unit id="DESELECT ALL" xml:space="preserve">
         <source>DESELECT ALL</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>ALLE ABWÄHLEN</target>
       </trans-unit>
       <trans-unit id="DESTROYED" xml:space="preserve">
         <source>DESTROYED</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>ZERSTÖRT</target>
       </trans-unit>
       <trans-unit id="DONCHIAN CHANNEL" xml:space="preserve">
         <source>DONCHIAN CHANNEL</source>
@@ -631,615 +632,615 @@
       </trans-unit>
       <trans-unit id="DPS" xml:space="preserve">
         <source>DPS</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>DPS</target>
       </trans-unit>
       <trans-unit id="DRONE" xml:space="preserve">
         <source>DRONE</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>DROHNE</target>
       </trans-unit>
       <trans-unit id="DROPPED" xml:space="preserve">
         <source>DROPPED</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>FALLENGELASSEN</target>
       </trans-unit>
       <trans-unit id="Damage Patterns" xml:space="preserve">
         <source>Damage Patterns</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Schadensmuster</target>
       </trans-unit>
       <trans-unit id="Damage per Second" xml:space="preserve">
         <source>Damage per Second</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Schaden pro Sekunde</target>
       </trans-unit>
       <trans-unit id="Data will be restored from iCloud." xml:space="preserve">
         <source>Data will be restored from iCloud.</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Daten werden aus der iCloud wiederhergestellt.</target>
       </trans-unit>
       <trans-unit id="Database" xml:space="preserve">
         <source>Database</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Datenbank</target>
       </trans-unit>
       <trans-unit id="Database Version" xml:space="preserve">
         <source>Database Version</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Datenbank Version</target>
       </trans-unit>
       <trans-unit id="Date Accepted" xml:space="preserve">
         <source>Date Accepted</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Abschlussdatum</target>
       </trans-unit>
       <trans-unit id="Date Completed" xml:space="preserve">
         <source>Date Completed</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Abschlussdatum</target>
       </trans-unit>
       <trans-unit id="Date Expired" xml:space="preserve">
         <source>Date Expired</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Ablaufdatum</target>
       </trans-unit>
       <trans-unit id="Date Issued" xml:space="preserve">
         <source>Date Issued</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Ausgabedatum</target>
       </trans-unit>
       <trans-unit id="Date of Birth" xml:space="preserve">
         <source>Date of Birth</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Gebursdatum</target>
       </trans-unit>
       <trans-unit id="Default" xml:space="preserve">
         <source>Default</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Standard</target>
       </trans-unit>
       <trans-unit id="Delete" xml:space="preserve">
         <source>Delete</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Löschen</target>
       </trans-unit>
       <trans-unit id="Deleted" xml:space="preserve">
         <source>Deleted</source>
-        <note>ESI.ContractStatus</note>
+        <note>ESI.ContractStatus</note><target>Gelöscht</target>
       </trans-unit>
       <trans-unit id="Delta:" xml:space="preserve">
         <source>Delta:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Delta:</target>
       </trans-unit>
       <trans-unit id="Depleted" xml:space="preserve">
         <source>Depleted</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Erschöpft</target>
       </trans-unit>
       <trans-unit id="Description" xml:space="preserve">
         <source>Description</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Beschreibung</target>
       </trans-unit>
       <trans-unit id="Deselect All" xml:space="preserve">
         <source>Deselect All</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Alle abwählen</target>
       </trans-unit>
       <trans-unit id="Drafts" xml:space="preserve">
         <source>Drafts</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Entwürfe</target>
       </trans-unit>
       <trans-unit id="Drone" xml:space="preserve">
         <source>Drone</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Drohne</target>
       </trans-unit>
       <trans-unit id="Drone range:" xml:space="preserve">
         <source>Drone range:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Drohnenreichweite:</target>
       </trans-unit>
       <trans-unit id="Drones" xml:space="preserve">
         <source>Drones</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Drohnen</target>
       </trans-unit>
       <trans-unit id="EHP: %@" xml:space="preserve">
         <source>EHP: %@</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>EHP: %@</target>
       </trans-unit>
       <trans-unit id="EM" xml:space="preserve">
         <source>EM</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>EM</target>
       </trans-unit>
       <trans-unit id="EVE Mail" xml:space="preserve">
         <source>EVE Mail</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>EVE Mail</target>
       </trans-unit>
       <trans-unit id="Efficiency:" xml:space="preserve">
         <source>Efficiency:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Effektivität:</target>
       </trans-unit>
       <trans-unit id="End Location" xml:space="preserve">
         <source>End Location</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Ziel-Ort</target>
       </trans-unit>
       <trans-unit id="English" xml:space="preserve">
         <source>English</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Englisch</target>
       </trans-unit>
       <trans-unit id="Error" xml:space="preserve">
         <source>Error</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Fehler</target>
       </trans-unit>
       <trans-unit id="Established" xml:space="preserve">
         <source>Established</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Etabliert</target>
       </trans-unit>
       <trans-unit id="Exit WH" xml:space="preserve">
         <source>Exit WH</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Ausgangswurmloch</target>
       </trans-unit>
       <trans-unit id="Expires in %@" xml:space="preserve">
         <source>Expires in %@</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Läuft ab in %@</target>
       </trans-unit>
       <trans-unit id="Explosive" xml:space="preserve">
         <source>Explosive</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Explosiv</target>
       </trans-unit>
       <trans-unit id="Extrapolated Efficiency:" xml:space="preserve">
         <source>Extrapolated Efficiency:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Hochgerechnete Effizienz:</target>
       </trans-unit>
       <trans-unit id="FEB" xml:space="preserve">
         <source>FEB</source>
-        <note>Month Abbreviation</note>
+        <note>Month Abbreviation</note><target>FEB</target>
       </trans-unit>
       <trans-unit id="FIREPOWER" xml:space="preserve">
         <source>FIREPOWER</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>FEUERKRAFT</target>
       </trans-unit>
       <trans-unit id="FITTING" xml:space="preserve">
         <source>FITTING</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>AUSRÜSTUNG</target>
       </trans-unit>
       <trans-unit id="FLEET" xml:space="preserve">
         <source>FLEET</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>FLOTTE</target>
       </trans-unit>
       <trans-unit id="FUEL" xml:space="preserve">
         <source>FUEL</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>TREIBSTOFF</target>
       </trans-unit>
       <trans-unit id="Failed" xml:space="preserve">
         <source>Failed</source>
-        <note>ESI.ContractStatus</note>
+        <note>ESI.ContractStatus</note><target>Fehlgeschlagen</target>
       </trans-unit>
       <trans-unit id="Falloff" xml:space="preserve">
         <source>Falloff</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Präzisionsabfall</target>
       </trans-unit>
       <trans-unit id="Fighters" xml:space="preserve">
         <source>Fighters</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Jäger</target>
       </trans-unit>
       <trans-unit id="Finished" xml:space="preserve">
         <source>Finished</source>
-        <note>ESI.ContractStatus</note>
+        <note>ESI.ContractStatus</note><target>Abgeschlossen</target>
       </trans-unit>
       <trans-unit id="Finished: %@ ago" xml:space="preserve">
         <source>Finished: %@ ago</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Abgeschlossen: vor %@</target>
       </trans-unit>
       <trans-unit id="Fitting" xml:space="preserve">
         <source>Fitting</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Ausrüstung</target>
       </trans-unit>
       <trans-unit id="Fitting Editor" xml:space="preserve">
         <source>Fitting Editor</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Ausrüstungseditor</target>
       </trans-unit>
       <trans-unit id="Fleet" xml:space="preserve">
         <source>Fleet</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Flotte</target>
       </trans-unit>
       <trans-unit id="Fleets" xml:space="preserve">
         <source>Fleets</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Flotten</target>
       </trans-unit>
       <trans-unit id="French" xml:space="preserve">
         <source>French</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Französisch</target>
       </trans-unit>
       <trans-unit id="From Date" xml:space="preserve">
         <source>From Date</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Von Datum</target>
       </trans-unit>
       <trans-unit id="G" xml:space="preserve">
         <source>G</source>
-        <note>giga SI prefix</note>
+        <note>giga SI prefix</note><target>G</target>
       </trans-unit>
       <trans-unit id="GJ" xml:space="preserve">
         <source>GJ</source>
-        <note>gigaJoule</note>
+        <note>gigaJoule</note><target>GJ</target>
       </trans-unit>
       <trans-unit id="GJ/s" xml:space="preserve">
         <source>GJ/s</source>
-        <note>gigaJoulePerSecond</note>
+        <note>gigaJoulePerSecond</note><target>GJ/s</target>
       </trans-unit>
       <trans-unit id="German" xml:space="preserve">
         <source>German</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Deutsch</target>
       </trans-unit>
       <trans-unit id="HP" xml:space="preserve">
         <source>HP</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>HP</target>
       </trans-unit>
       <trans-unit id="HP/s" xml:space="preserve">
         <source>HP/s</source>
-        <note>hpPerSecond</note>
+        <note>hpPerSecond</note><target>HP/s</target>
       </trans-unit>
       <trans-unit id="Hangar" xml:space="preserve">
         <source>Hangar</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Hangar</target>
       </trans-unit>
       <trans-unit id="Heavy" xml:space="preserve">
         <source>Heavy</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Schwer</target>
       </trans-unit>
       <trans-unit id="Hi Slot" xml:space="preserve">
         <source>Hi Slot</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Hochenergieslot</target>
       </trans-unit>
       <trans-unit id="High-Sec" xml:space="preserve">
         <source>High-Sec</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Hochsicherheitsraum</target>
       </trans-unit>
       <trans-unit id="Homepage" xml:space="preserve">
         <source>Homepage</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Homepage</target>
       </trans-unit>
       <trans-unit id="IMPLANTS" xml:space="preserve">
         <source>IMPLANTS</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>IMPLANTATE</target>
       </trans-unit>
       <trans-unit id="ISK" xml:space="preserve">
         <source>ISK</source>
-        <note>isk</note>
+        <note>isk</note><target>ISK</target>
       </trans-unit>
       <trans-unit id="ISK:" xml:space="preserve">
         <source>ISK:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>ISK:</target>
       </trans-unit>
       <trans-unit id="Implant" xml:space="preserve">
         <source>Implant</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Implantat</target>
       </trans-unit>
       <trans-unit id="Implant Slot %@" xml:space="preserve">
         <source>Implant Slot %@</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Implantat Slot %@</target>
       </trans-unit>
       <trans-unit id="Implants" xml:space="preserve">
         <source>Implants</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Implantate</target>
       </trans-unit>
       <trans-unit id="In Progress" xml:space="preserve">
         <source>In Progress</source>
-        <note>ESI.ContractStatus</note>
+        <note>ESI.ContractStatus</note><target>In Arbeit</target>
       </trans-unit>
       <trans-unit id="In-Game" xml:space="preserve">
         <source>In-Game</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>In-Game</target>
       </trans-unit>
       <trans-unit id="In-Game Loadouts" xml:space="preserve">
         <source>In-Game Loadouts</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>In-Game Ausrüstungen</target>
       </trans-unit>
       <trans-unit id="Inactive" xml:space="preserve">
         <source>Inactive</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Inaktiv</target>
       </trans-unit>
       <trans-unit id="Incursions" xml:space="preserve">
         <source>Incursions</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Übergriffe</target>
       </trans-unit>
       <trans-unit id="Industry" xml:space="preserve">
         <source>Industry</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Industrie</target>
       </trans-unit>
       <trans-unit id="Industry Jobs" xml:space="preserve">
         <source>Industry Jobs</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Industrieaufträge</target>
       </trans-unit>
       <trans-unit id="Infested Solar Systems" xml:space="preserve">
         <source>Infested Solar Systems</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Befallene Sonnensysteme</target>
       </trans-unit>
       <trans-unit id="Info" xml:space="preserve">
         <source>Info</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Info</target>
       </trans-unit>
       <trans-unit id="Input Ratio:" xml:space="preserve">
         <source>Input Ratio:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Eingabeverhältnis:</target>
       </trans-unit>
       <trans-unit id="Input: %@" xml:space="preserve">
         <source>Input: %@</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Eingabe: %@</target>
       </trans-unit>
       <trans-unit id="Intelligence" xml:space="preserve">
         <source>Intelligence</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Intelligenz</target>
       </trans-unit>
       <trans-unit id="Issued: " xml:space="preserve">
         <source>Issued: </source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Ausgestellt:</target>
       </trans-unit>
       <trans-unit id="Italian" xml:space="preserve">
         <source>Italian</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Italienisch</target>
       </trans-unit>
       <trans-unit id="Item" xml:space="preserve">
         <source>Item</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Gegenstand</target>
       </trans-unit>
       <trans-unit id="Item Exchange" xml:space="preserve">
         <source>Item Exchange</source>
-        <note>ESI.ContractType</note>
+        <note>ESI.ContractType</note><target>Gegenstandsaustausch</target>
       </trans-unit>
       <trans-unit id="JAN" xml:space="preserve">
         <source>JAN</source>
-        <note>Month Abbreviation</note>
+        <note>Month Abbreviation</note><target>JAN</target>
       </trans-unit>
       <trans-unit id="JUL" xml:space="preserve">
         <source>JUL</source>
-        <note>Month Abbreviation</note>
+        <note>Month Abbreviation</note><target>JUL</target>
       </trans-unit>
       <trans-unit id="JUN" xml:space="preserve">
         <source>JUN</source>
-        <note>Month Abbreviation</note>
+        <note>Month Abbreviation</note><target>JUN</target>
       </trans-unit>
       <trans-unit id="Japanese" xml:space="preserve">
         <source>Japanese</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Japanisch</target>
       </trans-unit>
       <trans-unit id="Jub Runs: " xml:space="preserve">
         <source>Jub Runs: </source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Durchläufe: </target>
       </trans-unit>
       <trans-unit id="Jump Clones" xml:space="preserve">
         <source>Jump Clones</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Sprungklone</target>
       </trans-unit>
       <trans-unit id="KILLBOARD" xml:space="preserve">
         <source>KILLBOARD</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>KILLBOARD</target>
       </trans-unit>
       <trans-unit id="Kill Reports" xml:space="preserve">
         <source>Kill Reports</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Abschussberichte</target>
       </trans-unit>
       <trans-unit id="Killmail" xml:space="preserve">
         <source>Killmail</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Abschlussbericht</target>
       </trans-unit>
       <trans-unit id="Kills" xml:space="preserve">
         <source>Kills</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Kills</target>
       </trans-unit>
       <trans-unit id="Kinetic" xml:space="preserve">
         <source>Kinetic</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Kinetisch</target>
       </trans-unit>
       <trans-unit id="Korean" xml:space="preserve">
         <source>Korean</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Koreanisch</target>
       </trans-unit>
       <trans-unit id="LEVEL %@" xml:space="preserve">
         <source>LEVEL %@</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>LEVEL %@</target>
       </trans-unit>
       <trans-unit id="LEVEL %@ (%@)" xml:space="preserve">
         <source>LEVEL %1$@ (%2$@)</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>LEVEL %1$@ (%2$@)</target>
       </trans-unit>
       <trans-unit id="LOADOUTS" xml:space="preserve">
         <source>LOADOUTS</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>AUSRÜSTUNGEN</target>
       </trans-unit>
       <trans-unit id="LP" xml:space="preserve">
         <source>LP</source>
-        <note>loyaltyPoints</note>
+        <note>loyaltyPoints</note><target>LP</target>
       </trans-unit>
       <trans-unit id="Language Pack" xml:space="preserve">
         <source>Language Pack</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Sprachpaket</target>
       </trans-unit>
       <trans-unit id="Large" xml:space="preserve">
         <source>Large</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Groß</target>
       </trans-unit>
       <trans-unit id="Lasts:" xml:space="preserve">
         <source>Lasts:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Hält:</target>
       </trans-unit>
       <trans-unit id="Leads Into" xml:space="preserve">
         <source>Leads Into</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Führt nach</target>
       </trans-unit>
       <trans-unit id="Level" xml:space="preserve">
         <source>Level</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Level</target>
       </trans-unit>
       <trans-unit id="Light" xml:space="preserve">
         <source>Light</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Leicht</target>
       </trans-unit>
       <trans-unit id="Loadouts" xml:space="preserve">
         <source>Loadouts</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Ausrüstungen</target>
       </trans-unit>
       <trans-unit id="Loan" xml:space="preserve">
         <source>Loan</source>
-        <note>ESI.ContractType</note>
+        <note>ESI.ContractType</note><target>Kredit</target>
       </trans-unit>
       <trans-unit id="Location" xml:space="preserve">
         <source>Location</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Ort</target>
       </trans-unit>
       <trans-unit id="Log In with EVE Online" xml:space="preserve">
         <source>Log In with EVE Online</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Einloggen mit EVE Online</target>
       </trans-unit>
       <trans-unit id="Logout" xml:space="preserve">
         <source>Logout</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Ausloggen</target>
       </trans-unit>
       <trans-unit id="Losses" xml:space="preserve">
         <source>Losses</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Verluste</target>
       </trans-unit>
       <trans-unit id="Low Slot" xml:space="preserve">
         <source>Low Slot</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Niedrigenergieslot</target>
       </trans-unit>
       <trans-unit id="Low-Sec" xml:space="preserve">
         <source>Low-Sec</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Niedersicherheitsraum</target>
       </trans-unit>
       <trans-unit id="Loyalty Points" xml:space="preserve">
         <source>Loyalty Points</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Loyalitätspunkte</target>
       </trans-unit>
       <trans-unit id="M" xml:space="preserve">
         <source>M</source>
-        <note>mega SI prefix</note>
+        <note>mega SI prefix</note><target>M</target>
       </trans-unit>
       <trans-unit id="MANUFACTURING" xml:space="preserve">
         <source>MANUFACTURING</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>HERSTELLUNG</target>
       </trans-unit>
       <trans-unit id="MAR" xml:space="preserve">
         <source>MAR</source>
-        <note>Month Abbreviation</note>
+        <note>Month Abbreviation</note><target>MÄRZ</target>
       </trans-unit>
       <trans-unit id="MARKET" xml:space="preserve">
         <source>MARKET</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>MARKT</target>
       </trans-unit>
       <trans-unit id="MATERIALS" xml:space="preserve">
         <source>MATERIALS</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>MATERIALIEN</target>
       </trans-unit>
       <trans-unit id="MAY" xml:space="preserve">
         <source>MAY</source>
-        <note>Month Abbreviation</note>
+        <note>Month Abbreviation</note><target>MAI</target>
       </trans-unit>
       <trans-unit id="MEDIAN" xml:space="preserve">
         <source>MEDIAN</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>MEDIAN</target>
       </trans-unit>
       <trans-unit id="MISC" xml:space="preserve">
         <source>MISC</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>SONSTIGES</target>
       </trans-unit>
       <trans-unit id="MODULE" xml:space="preserve">
         <source>MODULE</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>MODULE</target>
       </trans-unit>
       <trans-unit id="MW" xml:space="preserve">
         <source>MW</source>
-        <note>megaWatts</note>
+        <note>megaWatts</note><target>MW</target>
       </trans-unit>
       <trans-unit id="Mail" xml:space="preserve">
         <source>Mail</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Mail</target>
       </trans-unit>
       <trans-unit id="Market" xml:space="preserve">
         <source>Market</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Markt</target>
       </trans-unit>
       <trans-unit id="Market Orders" xml:space="preserve">
         <source>Market Orders</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Marktaufträge</target>
       </trans-unit>
       <trans-unit id="Mass:" xml:space="preserve">
         <source>Mass:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Masse:</target>
       </trans-unit>
       <trans-unit id="Mastery" xml:space="preserve">
         <source>Mastery</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Meisterschaft</target>
       </trans-unit>
       <trans-unit id="Materials" xml:space="preserve">
         <source>Materials</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Materialien</target>
       </trans-unit>
       <trans-unit id="Max" xml:space="preserve">
         <source>Max</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Max</target>
       </trans-unit>
       <trans-unit id="Maximum Jump Mass" xml:space="preserve">
         <source>Maximum Jump Mass</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Maximale Sprungmasse</target>
       </trans-unit>
       <trans-unit id="Maximum Mass Regeneration" xml:space="preserve">
         <source>Maximum Mass Regeneration</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Maximale Massenregeneration</target>
       </trans-unit>
       <trans-unit id="Maximum Stable Mass" xml:space="preserve">
         <source>Maximum Stable Mass</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Maximale stabile Masse</target>
       </trans-unit>
       <trans-unit id="Maximum Stable Time" xml:space="preserve">
         <source>Maximum Stable Time</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Maximale stabile Zeit</target>
       </trans-unit>
       <trans-unit id="Mbit/s" xml:space="preserve">
         <source>Mbit/s</source>
-        <note>megaBitsPerSecond</note>
+        <note>megaBitsPerSecond</note><target>Mbit/s</target>
       </trans-unit>
       <trans-unit id="Med Slot" xml:space="preserve">
         <source>Med Slot</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Mittelenergieslot</target>
       </trans-unit>
       <trans-unit id="Medium" xml:space="preserve">
         <source>Medium</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Mittel</target>
       </trans-unit>
       <trans-unit id="Memory" xml:space="preserve">
         <source>Memory</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Gedächtnis</target>
       </trans-unit>
       <trans-unit id="Migrate legacy data" xml:space="preserve">
         <source>Migrate legacy data</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Alte Daten migrieren</target>
       </trans-unit>
       <trans-unit id="Migration" xml:space="preserve">
         <source>Migration</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Migration</target>
       </trans-unit>
       <trans-unit id="Miners" xml:space="preserve">
         <source>Miners</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Miners</target>
       </trans-unit>
       <trans-unit id="Missile" xml:space="preserve">
         <source>Missile</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Lenkwaffen</target>
       </trans-unit>
       <trans-unit id="Mobilizing" xml:space="preserve">
         <source>Mobilizing</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Mobilisiert</target>
       </trans-unit>
       <trans-unit id="Modules" xml:space="preserve">
         <source>Modules</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Module</target>
       </trans-unit>
       <trans-unit id="My" xml:space="preserve">
         <source>My</source>
-        <note>Skill Borwser. My skills.</note>
+        <note>Skill Borwser. My skills.</note><target>Meine</target>
       </trans-unit>
       <trans-unit id="N/A" xml:space="preserve">
         <source>N/A</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>K.A.</target>
       </trans-unit>
       <trans-unit id="NO SKILLS IN TRAINING" xml:space="preserve">
         <source>NO SKILLS IN TRAINING</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>ES WERDEN KEINE SKILLS TRAINIERT</target>
       </trans-unit>
       <trans-unit id="NOV" xml:space="preserve">
         <source>NOV</source>
-        <note>Month Abbreviation</note>
+        <note>Month Abbreviation</note><target>NOV</target>
       </trans-unit>
       <trans-unit id="NPC" xml:space="preserve">
         <source>NPC</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>NPC</target>
       </trans-unit>
       <trans-unit id="Name" xml:space="preserve">
         <source>Name</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Name</target>
       </trans-unit>
       <trans-unit id="Necrorise Squadron" xml:space="preserve">
         <source>Necrorise Squadron</source>
@@ -1247,55 +1248,55 @@
       </trans-unit>
       <trans-unit id="Neocom" xml:space="preserve">
         <source>Neocom</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Neocom</target>
       </trans-unit>
       <trans-unit id="Neural Remap Available" xml:space="preserve">
         <source>Neural Remap Available</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Verfügbare neutale Umprogrammierung</target>
       </trans-unit>
       <trans-unit id="New Loadout" xml:space="preserve">
         <source>New Loadout</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Neue Ausrüstung</target>
       </trans-unit>
       <trans-unit id="No" xml:space="preserve">
         <source>No</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Nein</target>
       </trans-unit>
       <trans-unit id="No Accounts" xml:space="preserve">
         <source>No Accounts</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Keine Konten</target>
       </trans-unit>
       <trans-unit id="No EVE Account. Please login first." xml:space="preserve">
         <source>No EVE Account. Please login first.</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Kein EVE Konto. Bitte zuerst einloggen.</target>
       </trans-unit>
       <trans-unit id="No Implants" xml:space="preserve">
         <source>No Implants</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Keine Implantate</target>
       </trans-unit>
       <trans-unit id="No Loadouts" xml:space="preserve">
         <source>No Loadouts</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Keine Ausrüstungen</target>
       </trans-unit>
       <trans-unit id="No Price" xml:space="preserve">
         <source>No Price</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Kein Preis</target>
       </trans-unit>
       <trans-unit id="No Results" xml:space="preserve">
         <source>No Results</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Keine Ergebnisse</target>
       </trans-unit>
       <trans-unit id="No skills in training" xml:space="preserve">
         <source>No skills in training</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Es werden keine Skills trainiert</target>
       </trans-unit>
       <trans-unit id="None" xml:space="preserve">
         <source>None</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Keine/r</target>
       </trans-unit>
       <trans-unit id="Not Known" xml:space="preserve">
         <source>Not Known</source>
-        <note>Skill Borwser</note>
+        <note>Skill Borwser</note><target>Nicht erlernt</target>
       </trans-unit>
       <trans-unit id="Notifications Enabled" xml:space="preserve">
         <source>Notifications Enabled</source>
@@ -1303,215 +1304,215 @@
       </trans-unit>
       <trans-unit id="Now" xml:space="preserve">
         <source>Now</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Jetzt</target>
       </trans-unit>
       <trans-unit id="Null-Sec" xml:space="preserve">
         <source>Null-Sec</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Nullsicherheitsraum</target>
       </trans-unit>
       <trans-unit id="OCT" xml:space="preserve">
         <source>OCT</source>
-        <note>Month Abbreviation</note>
+        <note>Month Abbreviation</note><target>OKT</target>
       </trans-unit>
       <trans-unit id="OPTIMAL: %@" xml:space="preserve">
         <source>OPTIMAL: %@</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>OPTIMAL: %@</target>
       </trans-unit>
       <trans-unit id="Offline" xml:space="preserve">
         <source>Offline</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Offline</target>
       </trans-unit>
       <trans-unit id="Ok" xml:space="preserve">
         <source>Ok</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Ok</target>
       </trans-unit>
       <trans-unit id="Online" xml:space="preserve">
         <source>Online</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Online</target>
       </trans-unit>
       <trans-unit id="Open in Current Window" xml:space="preserve">
         <source>Open in Current Window</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Im aktuellen Fenster öffnen</target>
       </trans-unit>
       <trans-unit id="Open in New Window" xml:space="preserve">
         <source>Open in New Window</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>In neuem Fenster öffnen</target>
       </trans-unit>
       <trans-unit id="Open:" xml:space="preserve">
         <source>Open:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Offen:</target>
       </trans-unit>
       <trans-unit id="Optimal Range" xml:space="preserve">
         <source>Optimal Range</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Optimale Reichweite</target>
       </trans-unit>
       <trans-unit id="Optimal Remap" xml:space="preserve">
         <source>Optimal Remap</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Optimale Umprogrammierung</target>
       </trans-unit>
       <trans-unit id="Other" xml:space="preserve">
         <source>Other</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Anders</target>
       </trans-unit>
       <trans-unit id="Output: %@" xml:space="preserve">
         <source>Output: %@</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Ausgabe: %@</target>
       </trans-unit>
       <trans-unit id="Outstanding" xml:space="preserve">
         <source>Outstanding</source>
-        <note>ESI.ContractStatus</note>
+        <note>ESI.ContractStatus</note><target>Ausstehend</target>
       </trans-unit>
       <trans-unit id="Overheated" xml:space="preserve">
         <source>Overheated</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Überhitzend</target>
       </trans-unit>
       <trans-unit id="PREDEFINED" xml:space="preserve">
         <source>PREDEFINED</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>VORDEFINIERT</target>
       </trans-unit>
       <trans-unit id="PRICE" xml:space="preserve">
         <source>PRICE</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>PREIS</target>
       </trans-unit>
       <trans-unit id="PRODUCT" xml:space="preserve">
         <source>PRODUCT</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>PRODUKT</target>
       </trans-unit>
       <trans-unit id="PUBLISHED" xml:space="preserve">
         <source>PUBLISHED</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>VERÖFFENTLICHT</target>
       </trans-unit>
       <trans-unit id="Passive Recharge Rate" xml:space="preserve">
         <source>Passive Recharge Rate</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Passive Wiederaufladungsrate</target>
       </trans-unit>
       <trans-unit id="Per Item" xml:space="preserve">
         <source>Per Item</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>pro Item</target>
       </trans-unit>
       <trans-unit id="Perception" xml:space="preserve">
         <source>Perception</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Auffassungsgabe</target>
       </trans-unit>
       <trans-unit id="Personal" xml:space="preserve">
         <source>Personal</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Persönlich</target>
       </trans-unit>
       <trans-unit id="Pilot/Corporation/Alliance" xml:space="preserve">
         <source>Pilot/Corporation/Alliance</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Pilot/Corporation/Allianz</target>
       </trans-unit>
       <trans-unit id="Pilots" xml:space="preserve">
         <source>Pilots</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Piloten</target>
       </trans-unit>
       <trans-unit id="Planetaries" xml:space="preserve">
         <source>Planetaries</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Planetarien</target>
       </trans-unit>
       <trans-unit id="Please, log in to iCloud Account" xml:space="preserve">
         <source>Please, log in to iCloud Account</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Bitte melden Sie sich bei Ihrem iCloud-Konto an</target>
       </trans-unit>
       <trans-unit id="Present" xml:space="preserve">
         <source>Present</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Jetzt</target>
       </trans-unit>
       <trans-unit id="Price" xml:space="preserve">
         <source>Price</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Preis</target>
       </trans-unit>
       <trans-unit id="Price:" xml:space="preserve">
         <source>Price:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Preis:</target>
       </trans-unit>
       <trans-unit id="Price: " xml:space="preserve">
         <source>Price: </source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Preis: </target>
       </trans-unit>
       <trans-unit id="Privacy Policy" xml:space="preserve">
         <source>Privacy Policy</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Datenschutzerklärung</target>
       </trans-unit>
       <trans-unit id="Public" xml:space="preserve">
         <source>Public</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Öffentlich</target>
       </trans-unit>
       <trans-unit id="Qty:" xml:space="preserve">
         <source>Qty:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Anzahl:</target>
       </trans-unit>
       <trans-unit id="Qty: " xml:space="preserve">
         <source>Qty: </source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Anzahl: </target>
       </trans-unit>
       <trans-unit id="Qty: %@" xml:space="preserve">
         <source>Qty: %@</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Anzahl: %@</target>
       </trans-unit>
       <trans-unit id="Quantity" xml:space="preserve">
         <source>Quantity</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Anzahl</target>
       </trans-unit>
       <trans-unit id="Quantity:" xml:space="preserve">
         <source>Quantity:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Anzahl:</target>
       </trans-unit>
       <trans-unit id="Quantity: %@" xml:space="preserve">
         <source>Quantity: %@</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Anzahl: %@</target>
       </trans-unit>
       <trans-unit id="RECHARGE RATES (HP/S, EHP/S)" xml:space="preserve">
         <source>RECHARGE RATES (HP/S, EHP/S)</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>WIEDERAUFLADUNGSRATEN (HP/S, EHP/S)</target>
       </trans-unit>
       <trans-unit id="REGIONS" xml:space="preserve">
         <source>REGIONS</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>REGIONEN</target>
       </trans-unit>
       <trans-unit id="RESISTANCES" xml:space="preserve">
         <source>RESISTANCES</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>RESISTENZEN</target>
       </trans-unit>
       <trans-unit id="RESOURCES" xml:space="preserve">
         <source>RESOURCES</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>RESSOURCEN</target>
       </trans-unit>
       <trans-unit id="Range:" xml:space="preserve">
         <source>Range:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Reichweite:</target>
       </trans-unit>
       <trans-unit id="Rate of Fire" xml:space="preserve">
         <source>Rate of Fire</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Feuerrate</target>
       </trans-unit>
       <trans-unit id="Recharge:" xml:space="preserve">
         <source>Recharge:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Aufladen:</target>
       </trans-unit>
       <trans-unit id="Red Alert" xml:space="preserve">
         <source>Red Alert</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Alarmstufe Rot</target>
       </trans-unit>
       <trans-unit id="Redoubt" xml:space="preserve">
         <source>Redoubt</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Redoubt</target>
       </trans-unit>
       <trans-unit id="Regions" xml:space="preserve">
         <source>Regions</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Regionen</target>
       </trans-unit>
       <trans-unit id="Reinforced" xml:space="preserve">
         <source>Reinforced</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Reinforced</target>
       </trans-unit>
       <trans-unit id="Rejected" xml:space="preserve">
         <source>Rejected</source>
-        <note>ESI.ContractStatus</note>
+        <note>ESI.ContractStatus</note><target>Abgelehnt</target>
       </trans-unit>
       <trans-unit id="Repair Rate" xml:space="preserve">
         <source>Repair Rate</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Reparaturrate</target>
       </trans-unit>
       <trans-unit id="Reply" xml:space="preserve">
         <source>Reply</source>
@@ -1519,211 +1520,211 @@
       </trans-unit>
       <trans-unit id="Required Skills" xml:space="preserve">
         <source>Required Skills</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Erforderliche Skills</target>
       </trans-unit>
       <trans-unit id="Requirements" xml:space="preserve">
         <source>Requirements</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Vorraussetzungen</target>
       </trans-unit>
       <trans-unit id="Reversed" xml:space="preserve">
         <source>Reversed</source>
-        <note>ESI.ContractStatus</note>
+        <note>ESI.ContractStatus</note><target>Aufgehoben</target>
       </trans-unit>
       <trans-unit id="Reward" xml:space="preserve">
         <source>Reward</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Belohnung</target>
       </trans-unit>
       <trans-unit id="Rig Slot" xml:space="preserve">
         <source>Rig Slot</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Modifikationsslot</target>
       </trans-unit>
       <trans-unit id="Root" xml:space="preserve">
         <source>Root</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Ursprung</target>
       </trans-unit>
       <trans-unit id="Runs per Copy: " xml:space="preserve">
         <source>Runs per Copy: </source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Durchläufe je Kopie: </target>
       </trans-unit>
       <trans-unit id="Russian" xml:space="preserve">
         <source>Russian</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Russisch</target>
       </trans-unit>
       <trans-unit id="SELECT ALL" xml:space="preserve">
         <source>SELECT ALL</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>ALLE AUSWÄHLEN</target>
       </trans-unit>
       <trans-unit id="SEP" xml:space="preserve">
         <source>SEP</source>
-        <note>Month Abbreviation</note>
+        <note>Month Abbreviation</note><target>SEP</target>
       </trans-unit>
       <trans-unit id="SHIP" xml:space="preserve">
         <source>SHIP</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>SCHIFF</target>
       </trans-unit>
       <trans-unit id="SKILL PLAN" xml:space="preserve">
         <source>SKILL PLAN</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>SKILL PLAN</target>
       </trans-unit>
       <trans-unit id="SKILL PLAN IS EMPTY" xml:space="preserve">
         <source>SKILL PLAN IS EMPTY</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>SKILL PLAN IST LEER</target>
       </trans-unit>
       <trans-unit id="SKILL PLAN: " xml:space="preserve">
         <source>SKILL PLAN: </source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>SKILL PLAN: </target>
       </trans-unit>
       <trans-unit id="SKILL QUEUE NOTIFICATIONS" xml:space="preserve">
         <source>SKILL QUEUE NOTIFICATIONS</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>BENACHRICHTIGUNGEN FÜR TRAININGSWARTESCHLANGE</target>
       </trans-unit>
       <trans-unit id="SKILL QUEUE: %@ (%@ skills)" xml:space="preserve">
         <source>SKILL QUEUE: %1$@ (%2$@ skills)</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>TRAININGSWARTESCHLANGE: %1$@ (%2$@ Skills)</target>
       </trans-unit>
       <trans-unit id="SKILLS" xml:space="preserve">
         <source>SKILLS</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>SKILLS</target>
       </trans-unit>
       <trans-unit id="SOLAR SYSTEMS" xml:space="preserve">
         <source>SOLAR SYSTEMS</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>SONNENSYSTEM</target>
       </trans-unit>
       <trans-unit id="SP" xml:space="preserve">
         <source>SP</source>
-        <note>skillPoints</note>
+        <note>skillPoints</note><target>SP</target>
       </trans-unit>
       <trans-unit id="SP/s" xml:space="preserve">
         <source>SP/s</source>
-        <note>spPerSecond</note>
+        <note>spPerSecond</note><target>SP/s</target>
       </trans-unit>
       <trans-unit id="SP:" xml:space="preserve">
         <source>SP:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>SP:</target>
       </trans-unit>
       <trans-unit id="SPECIAL THANKS" xml:space="preserve">
         <source>SPECIAL THANKS</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>BESONDERER DANK</target>
       </trans-unit>
       <trans-unit id="STRUCTURE" xml:space="preserve">
         <source>STRUCTURE</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>STRUKTUREN</target>
       </trans-unit>
       <trans-unit id="Save" xml:space="preserve">
         <source>Save</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Speichern</target>
       </trans-unit>
       <trans-unit id="Save In-Game" xml:space="preserve">
         <source>Save In-Game</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Im Spiel speichern</target>
       </trans-unit>
       <trans-unit id="Scan res.:" xml:space="preserve">
         <source>Scan res.:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Scanaufl.:</target>
       </trans-unit>
       <trans-unit id="Search" xml:space="preserve">
         <source>Search</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Suche</target>
       </trans-unit>
       <trans-unit id="Security Status" xml:space="preserve">
         <source>Security Status</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Sicherheitsstufe</target>
       </trans-unit>
       <trans-unit id="Select" xml:space="preserve">
         <source>Select</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Auswählen</target>
       </trans-unit>
       <trans-unit id="Select Account" xml:space="preserve">
         <source>Select Account</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Konto auswählen</target>
       </trans-unit>
       <trans-unit id="Select All" xml:space="preserve">
         <source>Select All</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Alle auswählen</target>
       </trans-unit>
       <trans-unit id="Select Ammo" xml:space="preserve">
         <source>Select Ammo</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Munition auswählen</target>
       </trans-unit>
       <trans-unit id="Select NPC" xml:space="preserve">
         <source>Select NPC</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>NPC auswählen</target>
       </trans-unit>
       <trans-unit id="Select at least one modifier" xml:space="preserve">
         <source>Select at least one modifier</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Wählen Sie mindestens einen Modifikator</target>
       </trans-unit>
       <trans-unit id="Sell" xml:space="preserve">
         <source>Sell</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Verkaufen</target>
       </trans-unit>
       <trans-unit id="Sellers" xml:space="preserve">
         <source>Sellers</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Verkäufer</target>
       </trans-unit>
       <trans-unit id="Sensor str.:" xml:space="preserve">
         <source>Sensor str.:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Sensorstärke:</target>
       </trans-unit>
       <trans-unit id="Sentinel" xml:space="preserve">
         <source>Sentinel</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Sentinel</target>
       </trans-unit>
       <trans-unit id="Service Slot" xml:space="preserve">
         <source>Service Slot</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Service-Slot</target>
       </trans-unit>
       <trans-unit id="Settings" xml:space="preserve">
         <source>Settings</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Einstellungen</target>
       </trans-unit>
       <trans-unit id="Share" xml:space="preserve">
         <source>Share</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Teilen</target>
       </trans-unit>
       <trans-unit id="Ship" xml:space="preserve">
         <source>Ship</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Schiff</target>
       </trans-unit>
       <trans-unit id="Ship Name" xml:space="preserve">
         <source>Ship Name</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Schiffname</target>
       </trans-unit>
       <trans-unit id="Ships" xml:space="preserve">
         <source>Ships</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Schiffe</target>
       </trans-unit>
       <trans-unit id="Shortage in %@" xml:space="preserve">
         <source>Shortage in %@</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Mangel an %@</target>
       </trans-unit>
       <trans-unit id="Signature:" xml:space="preserve">
         <source>Signature:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Signatur:</target>
       </trans-unit>
       <trans-unit id="Skill" xml:space="preserve">
         <source>Skill</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Skill</target>
       </trans-unit>
       <trans-unit id="Skill %d" xml:space="preserve">
         <source>Skill %d</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Skill %d</target>
       </trans-unit>
       <trans-unit id="Skill Info" xml:space="preserve">
         <source>Skill Info</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Skill Info</target>
       </trans-unit>
       <trans-unit id="Skill Plans" xml:space="preserve">
         <source>Skill Plans</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Skill Pläne</target>
       </trans-unit>
       <trans-unit id="Skill Queue" xml:space="preserve">
         <source>Skill Queue</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Tainingswarteschlange</target>
       </trans-unit>
       <trans-unit id="Skill Training Complete" xml:space="preserve">
         <source>Skill Training Complete</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Trainingswarteschlange beendet</target>
       </trans-unit>
       <trans-unit id="Skill queue is empty" xml:space="preserve">
         <source>Skill queue is empty</source>
@@ -1731,339 +1732,339 @@
       </trans-unit>
       <trans-unit id="Skills" xml:space="preserve">
         <source>Skills</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Skills</target>
       </trans-unit>
       <trans-unit id="Small" xml:space="preserve">
         <source>Small</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Klein</target>
       </trans-unit>
       <trans-unit id="Solo" xml:space="preserve">
         <source>Solo</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Alleine</target>
       </trans-unit>
       <trans-unit id="Some application features may be temporarily unavailable" xml:space="preserve">
         <source>Some application features may be temporarily unavailable</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Einige Anwendungsfunktionen sind möglicherweise vorübergehend nicht verfügbar</target>
       </trans-unit>
       <trans-unit id="Sources" xml:space="preserve">
         <source>Sources</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Quellen</target>
       </trans-unit>
       <trans-unit id="Spanish" xml:space="preserve">
         <source>Spanish</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Spanisch</target>
       </trans-unit>
       <trans-unit id="Special hold:" xml:space="preserve">
         <source>Special hold:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Besonderer Laderaum:</target>
       </trans-unit>
       <trans-unit id="Speed:" xml:space="preserve">
         <source>Speed:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Geschwindigkeit:</target>
       </trans-unit>
       <trans-unit id="Stable:" xml:space="preserve">
         <source>Stable:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Stabil:</target>
       </trans-unit>
       <trans-unit id="Start" xml:space="preserve">
         <source>Start</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Start</target>
       </trans-unit>
       <trans-unit id="Start Location" xml:space="preserve">
         <source>Start Location</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Start-Ort</target>
       </trans-unit>
       <trans-unit id="Stats" xml:space="preserve">
         <source>Stats</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Werte</target>
       </trans-unit>
       <trans-unit id="Status" xml:space="preserve">
         <source>Status</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Status</target>
       </trans-unit>
       <trans-unit id="Structure Name" xml:space="preserve">
         <source>Structure Name</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Strukturname</target>
       </trans-unit>
       <trans-unit id="Structures" xml:space="preserve">
         <source>Structures</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Strukturen</target>
       </trans-unit>
       <trans-unit id="Subsystem Slot" xml:space="preserve">
         <source>Subsystem Slot</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Subsystem-Slot</target>
       </trans-unit>
       <trans-unit id="Sum (units):" xml:space="preserve">
         <source>Sum (units):</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Summe (Einheiten):</target>
       </trans-unit>
       <trans-unit id="Support" xml:space="preserve">
         <source>Support</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Unterstützung</target>
       </trans-unit>
       <trans-unit id="Sustained" xml:space="preserve">
         <source>Sustained</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Unterstützt</target>
       </trans-unit>
       <trans-unit id="Switch" xml:space="preserve">
         <source>Switch</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Wechseln</target>
       </trans-unit>
       <trans-unit id="T" xml:space="preserve">
         <source>T</source>
-        <note>tera SI prefix</note>
+        <note>tera SI prefix</note><target>T</target>
       </trans-unit>
       <trans-unit id="Tactical Mode" xml:space="preserve">
         <source>Tactical Mode</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Taktischer Modus</target>
       </trans-unit>
       <trans-unit id="Tap to Login" xml:space="preserve">
         <source>Tap to Login</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Zur Anmeldung tippen</target>
       </trans-unit>
       <trans-unit id="Targets:" xml:space="preserve">
         <source>Targets:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Ziele:</target>
       </trans-unit>
       <trans-unit id="Terms of Use" xml:space="preserve">
         <source>Terms of Use</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Nutzungsbedingungen</target>
       </trans-unit>
       <trans-unit id="Text" xml:space="preserve">
         <source>Text</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Text</target>
       </trans-unit>
       <trans-unit id="Tf" xml:space="preserve">
         <source>Tf</source>
-        <note>teraflops</note>
+        <note>teraflops</note><target>Tf</target>
       </trans-unit>
       <trans-unit id="Thera" xml:space="preserve">
         <source>Thera</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Thera</target>
       </trans-unit>
       <trans-unit id="Thermal" xml:space="preserve">
         <source>Thermal</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Thermal</target>
       </trans-unit>
       <trans-unit id="Time" xml:space="preserve">
         <source>Time</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Zeit</target>
       </trans-unit>
       <trans-unit id="Time to Depletion:" xml:space="preserve">
         <source>Time to Depletion:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Zeit bis zur Erschöpfung:</target>
       </trans-unit>
       <trans-unit id="Title" xml:space="preserve">
         <source>Title</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Titel</target>
       </trans-unit>
       <trans-unit id="To Date" xml:space="preserve">
         <source>To Date</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Bis Datum</target>
       </trans-unit>
       <trans-unit id="To:" xml:space="preserve">
         <source>To:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>An:</target>
       </trans-unit>
       <trans-unit id="Toggle" xml:space="preserve">
         <source>Toggle</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Umschalten</target>
       </trans-unit>
       <trans-unit id="Total" xml:space="preserve">
         <source>Total</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Gesamt</target>
       </trans-unit>
       <trans-unit id="Total Unread: %@" xml:space="preserve">
         <source>Total Unread: %@</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Insgesamt ungelesen: %@</target>
       </trans-unit>
       <trans-unit id="Total:" xml:space="preserve">
         <source>Total:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Gesamt:</target>
       </trans-unit>
       <trans-unit id="Train to Level" xml:space="preserve">
         <source>Train to Level</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Trainieren bis Level</target>
       </trans-unit>
       <trans-unit id="Train to level %@" xml:space="preserve">
         <source>Train to level %@</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Trainieren bis Level %@</target>
       </trans-unit>
       <trans-unit id="Training Queue is inactive" xml:space="preserve">
         <source>Training Queue is inactive</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Trainingswarteschlange ist inaktiv</target>
       </trans-unit>
       <trans-unit id="Training Queue will finish in 1 hour." xml:space="preserve">
         <source>Training Queue will finish in 1 hour.</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Trainingswarteschlange wird in einer Stunde beendet.</target>
       </trans-unit>
       <trans-unit id="Training Queue will finish in 4 hours." xml:space="preserve">
         <source>Training Queue will finish in 4 hours.</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Trainingswarteschlange wird in 4 Stunden beendet.</target>
       </trans-unit>
       <trans-unit id="Training Queue will finish in 24 hours." xml:space="preserve">
         <source>Training Queue will finish in 24 hours.</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Trainingswarteschlange wird in 24 Stunden beendet.</target>
       </trans-unit>
       <trans-unit id="Training time: %@" xml:space="preserve">
         <source>Training time: %@</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Trainingszeit: %@</target>
       </trans-unit>
       <trans-unit id="Tranquility - " xml:space="preserve">
         <source>Tranquility - </source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Tranquility - </target>
       </trans-unit>
       <trans-unit id="UNKNOWN" xml:space="preserve">
         <source>UNKNOWN</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>UBEKANNT</target>
       </trans-unit>
       <trans-unit id="UNKNOWN LOCATION" xml:space="preserve">
         <source>UNKNOWN LOCATION</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>UNBEKANNTER ORT</target>
       </trans-unit>
       <trans-unit id="UNNAMED" xml:space="preserve">
         <source>UNNAMED</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>UNBEZEICHNET</target>
       </trans-unit>
       <trans-unit id="UNPUBLISHED" xml:space="preserve">
         <source>UNPUBLISHED</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>UNVERÖFFENTLICHT</target>
       </trans-unit>
       <trans-unit id="Unknown" xml:space="preserve">
         <source>Unknown</source>
-        <note>ESI.ContractType</note>
+        <note>ESI.ContractType</note><target>Unbekannt</target>
       </trans-unit>
       <trans-unit id="Unknown Class %d" xml:space="preserve">
         <source>Unknown Class %d</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Unbekannte Klasse %d</target>
       </trans-unit>
       <trans-unit id="Unknown Error" xml:space="preserve">
         <source>Unknown Error</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Unbekannter Fehler</target>
       </trans-unit>
       <trans-unit id="Unknown Location" xml:space="preserve">
         <source>Unknown Location</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Unbekannter Ort</target>
       </trans-unit>
       <trans-unit id="Unknown Type" xml:space="preserve">
         <source>Unknown Type</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Unbekannter Typ</target>
       </trans-unit>
       <trans-unit id="Unknown ship" xml:space="preserve">
         <source>Unknown ship</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Unbekanntes Schiff</target>
       </trans-unit>
       <trans-unit id="Unnamed" xml:space="preserve">
         <source>Unnamed</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Unbezeichnet</target>
       </trans-unit>
       <trans-unit id="Updated:" xml:space="preserve">
         <source>Updated:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Aktualisiert:</target>
       </trans-unit>
       <trans-unit id="VARIATIONS" xml:space="preserve">
         <source>VARIATIONS</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>VARIATIONEN</target>
       </trans-unit>
       <trans-unit id="VICTIM" xml:space="preserve">
         <source>VICTIM</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>OPFER</target>
       </trans-unit>
       <trans-unit id="VOLUME" xml:space="preserve">
         <source>VOLUME</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>VOLUMEN</target>
       </trans-unit>
       <trans-unit id="Variations" xml:space="preserve">
         <source>Variations</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Variationen</target>
       </trans-unit>
       <trans-unit id="Vidette" xml:space="preserve">
         <source>Vidette</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Vidette</target>
       </trans-unit>
       <trans-unit id="Volley" xml:space="preserve">
         <source>Volley</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Salve</target>
       </trans-unit>
       <trans-unit id="Volume" xml:space="preserve">
         <source>Volume</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Volumen</target>
       </trans-unit>
       <trans-unit id="W-Frig" xml:space="preserve">
         <source>W-Frig</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Fregatten-Wurmloch</target>
       </trans-unit>
       <trans-unit id="W-Space" xml:space="preserve">
         <source>W-Space</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Wurmloch-Raum</target>
       </trans-unit>
       <trans-unit id="W-Space Class %d" xml:space="preserve">
         <source>W-Space Class %d</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Wurmloch-Raum Klasse %d</target>
       </trans-unit>
       <trans-unit id="WH-Space" xml:space="preserve">
         <source>WH-Space</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Wurmloch-Raum</target>
       </trans-unit>
       <trans-unit id="Wallet Journal" xml:space="preserve">
         <source>Wallet Journal</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Konto Logbuch</target>
       </trans-unit>
       <trans-unit id="Wallet Transactions" xml:space="preserve">
         <source>Wallet Transactions</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Konto Transaktionen</target>
       </trans-unit>
       <trans-unit id="Warp Speed" xml:space="preserve">
         <source>Warp Speed</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Warpgeschwindigkeit</target>
       </trans-unit>
       <trans-unit id="Warp speed:" xml:space="preserve">
         <source>Warp speed:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Warpgeschwindigkeit:</target>
       </trans-unit>
       <trans-unit id="Warzone Control:" xml:space="preserve">
         <source>Warzone Control:</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Kontrolle über Kriegssysteme:</target>
       </trans-unit>
       <trans-unit id="Waste %@%" xml:space="preserve">
         <source>Waste %1$@%2$</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Abfall %1$@%2$</target>
       </trans-unit>
       <trans-unit id="Waste in %@ (%@%)" xml:space="preserve">
         <source>Waste in %1$@ (%2$@%3$)</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Abfall in %1$@ (%2$@%3$)</target>
       </trans-unit>
       <trans-unit id="Wealth" xml:space="preserve">
         <source>Wealth</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Reichtum</target>
       </trans-unit>
       <trans-unit id="Weapons" xml:space="preserve">
         <source>Weapons</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Waffen</target>
       </trans-unit>
       <trans-unit id="Willpower" xml:space="preserve">
         <source>Willpower</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Willenskraft</target>
       </trans-unit>
       <trans-unit id="Withdrawing" xml:space="preserve">
         <source>Withdrawing</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Auf dem Rückzug</target>
       </trans-unit>
       <trans-unit id="Wormholes" xml:space="preserve">
         <source>Wormholes</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Wurmlöcher</target>
       </trans-unit>
       <trans-unit id="X-Large" xml:space="preserve">
         <source>X-Large</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Extragroß</target>
       </trans-unit>
       <trans-unit id="Yes" xml:space="preserve">
         <source>Yes</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Ja</target>
       </trans-unit>
       <trans-unit id="Yield (units/h):" xml:space="preserve">
         <source>Yield (units/h):</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>Ertrag (Einheiten/Std):</target>
       </trans-unit>
       <trans-unit id="[%@)]" xml:space="preserve">
         <source>[%@)]</source>
@@ -2071,64 +2072,64 @@
       </trans-unit>
       <trans-unit id="cancelled %@" xml:space="preserve">
         <source>cancelled %@</source>
-        <note>Industry Job Status: cancelled [date]</note>
+        <note>Industry Job Status: cancelled [date]</note><target>Abgebrochen am %@</target>
       </trans-unit>
       <trans-unit id="d" xml:space="preserve">
         <source>d</source>
-        <note>days</note>
+        <note>days</note><target>T</target>
       </trans-unit>
       <trans-unit id="delivered %@" xml:space="preserve">
         <source>delivered %@</source>
-        <note>Industry Job Status: delivered [date]</note>
+        <note>Industry Job Status: delivered [date]</note><target>Abgeliefert am %@</target>
       </trans-unit>
       <trans-unit id="h" xml:space="preserve">
         <source>h</source>
-        <note>hours</note>
+        <note>hours</note><target>S</target>
       </trans-unit>
       <trans-unit id="k" xml:space="preserve">
         <source>k</source>
-        <note>kilo SI prefix</note>
+        <note>kilo SI prefix</note><target>k</target>
       </trans-unit>
       <trans-unit id="kg" xml:space="preserve">
         <source>kg</source>
-        <note>kilogram</note>
+        <note>kilogram</note><target>kg</target>
       </trans-unit>
       <trans-unit id="m" xml:space="preserve">
         <source>m</source>
         <note>meter
-   minutes</note>
+   minutes</note><target>m</target>
       </trans-unit>
       <trans-unit id="m/s" xml:space="preserve">
         <source>m/s</source>
-        <note>meterPerSecond</note>
+        <note>meterPerSecond</note><target>m/s</target>
       </trans-unit>
       <trans-unit id="mm" xml:space="preserve">
         <source>mm</source>
-        <note>millimeter</note>
+        <note>millimeter</note><target>mm</target>
       </trans-unit>
       <trans-unit id="m³" xml:space="preserve">
         <source>m³</source>
-        <note>cubicMeter</note>
+        <note>cubicMeter</note><target>m³</target>
       </trans-unit>
       <trans-unit id="m³/s" xml:space="preserve">
         <source>m³/s</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>m³/s</target>
       </trans-unit>
       <trans-unit id="paused %@)" xml:space="preserve">
         <source>paused %@)</source>
-        <note>Industry Job Status: paused [date]</note>
+        <note>Industry Job Status: paused [date]</note><target>Pausiert am %@)</target>
       </trans-unit>
       <trans-unit id="ready %@)" xml:space="preserve">
         <source>ready %@)</source>
-        <note>Industry Job Status: ready [date]</note>
+        <note>Industry Job Status: ready [date]</note><target>Fertig am %@)</target>
       </trans-unit>
       <trans-unit id="reverted %@)" xml:space="preserve">
         <source>reverted %@)</source>
-        <note>Industry Job Status: reverted [date]</note>
+        <note>Industry Job Status: reverted [date]</note><target>Wiederrufen am %@)</target>
       </trans-unit>
       <trans-unit id="s" xml:space="preserve">
         <source>s</source>
-        <note>seconds</note>
+        <note>seconds</note><target>s</target>
       </trans-unit>
       <trans-unit id="skills in queue" xml:space="preserve">
         <source>skills in queue</source>
@@ -2140,11 +2141,11 @@
       </trans-unit>
       <trans-unit id="zKillboard" xml:space="preserve">
         <source>zKillboard</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>zKillboard</target>
       </trans-unit>
       <trans-unit id="zKillboard Reports" xml:space="preserve">
         <source>zKillboard Reports</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>zKillboard Berichte</target>
       </trans-unit>
       <trans-unit id="|" xml:space="preserve">
         <source>|</source>
