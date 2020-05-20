@@ -350,7 +350,7 @@
       </trans-unit>
       <trans-unit id="Align time:" xml:space="preserve">
         <source>Align time:</source>
-        <target>Выравнивание</target>
+        <target>Выравнивание:</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="All" xml:space="preserve">
@@ -1053,7 +1053,8 @@
       </trans-unit>
       <trans-unit id="Homepage" xml:space="preserve">
         <source>Homepage</source>
-        <note>No comment provided by engineer.</note><target>Домашняя страница</target>
+        <target>Домашняя страница</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="IMPLANTS" xml:space="preserve">
         <source>IMPLANTS</source>
@@ -1830,7 +1831,8 @@
       </trans-unit>
       <trans-unit id="Reply" xml:space="preserve">
         <source>Reply</source>
-        <note>No comment provided by engineer.</note><target>Ответить</target>
+        <target>Ответить</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Required Skills" xml:space="preserve">
         <source>Required Skills</source>
@@ -1995,6 +1997,18 @@
       <trans-unit id="Select at least one modifier" xml:space="preserve">
         <source>Select at least one modifier</source>
         <target>Выберите минимум один фильтр</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Selected %@ Accounts" xml:space="preserve">
+        <source>Selected %@ Accounts</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Selected %@ Accounts and %@ Loadouts" xml:space="preserve">
+        <source>Selected %1$@ Accounts and %2$@ Loadouts</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Selected %@ Loadouts" xml:space="preserve">
+        <source>Selected %@ Loadouts</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Sell" xml:space="preserve">

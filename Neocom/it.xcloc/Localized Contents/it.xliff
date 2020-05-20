@@ -1653,6 +1653,18 @@
         <source>Select at least one modifier</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Selected %@ Accounts" xml:space="preserve">
+        <source>Selected %@ Accounts</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Selected %@ Accounts and %@ Loadouts" xml:space="preserve">
+        <source>Selected %1$@ Accounts and %2$@ Loadouts</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Selected %@ Loadouts" xml:space="preserve">
+        <source>Selected %@ Loadouts</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Sell" xml:space="preserve">
         <source>Sell</source>
         <note>No comment provided by engineer.</note>
