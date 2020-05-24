@@ -2134,7 +2134,7 @@
       </trans-unit>
       <trans-unit id="Skill Training Complete" xml:space="preserve">
         <source>Skill Training Complete</source>
-        <target>Trainingswarteschlange beendet</target>
+        <target>Skill Training beendet</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Skill queue is empty" xml:space="preserve">
