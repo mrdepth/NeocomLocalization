@@ -1847,7 +1847,7 @@
       </trans-unit>
       <trans-unit id="Reinforced" xml:space="preserve">
         <source>Reinforced</source>
-        <target>Reinforced</target>
+        <target>Verstärkt</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Rejected" xml:space="preserve">
@@ -2037,15 +2037,15 @@
       </trans-unit>
       <trans-unit id="Selected %@ Accounts" xml:space="preserve">
         <source>Selected %@ Accounts</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>%@ Konten ausgewählt</target>
       </trans-unit>
       <trans-unit id="Selected %@ Accounts and %@ Loadouts" xml:space="preserve">
         <source>Selected %1$@ Accounts and %2$@ Loadouts</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>%1$@ Konten und %2$@ Ausrüstungen ausgewählt</target>
       </trans-unit>
       <trans-unit id="Selected %@ Loadouts" xml:space="preserve">
         <source>Selected %@ Loadouts</source>
-        <note>No comment provided by engineer.</note>
+        <note>No comment provided by engineer.</note><target>%@ Ausrüstungen ausgewählt</target>
       </trans-unit>
       <trans-unit id="Sell" xml:space="preserve">
         <source>Sell</source>
@@ -2474,17 +2474,17 @@
       </trans-unit>
       <trans-unit id="W-Space" xml:space="preserve">
         <source>W-Space</source>
-        <target>Wurmloch-Raum</target>
+        <target>Wurmloch</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="W-Space Class %d" xml:space="preserve">
         <source>W-Space Class %d</source>
-        <target>Wurmloch-Raum Klasse %d</target>
+        <target>Wurmloch Klasse %d</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="WH-Space" xml:space="preserve">
         <source>WH-Space</source>
-        <target>Wurmloch-Raum</target>
+        <target>Wurmloch</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Wallet Journal" xml:space="preserve">
@@ -2509,7 +2509,7 @@
       </trans-unit>
       <trans-unit id="Warzone Control:" xml:space="preserve">
         <source>Warzone Control:</source>
-        <target>Kontrolle über Kriegssysteme:</target>
+        <target>Kriegssystemekontrolle:</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Waste %@%" xml:space="preserve">
