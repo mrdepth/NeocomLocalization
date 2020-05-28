@@ -2,7 +2,7 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Neocom/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="ru">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" xml:space="preserve">
@@ -17,7 +17,7 @@
   </file>
   <file original="Neocom/en.lproj/Localizable.strings" source-language="en" target-language="ru" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.4.1" build-num="11E503a"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
     </header>
     <body>
       <trans-unit id=" " xml:space="preserve">
@@ -52,6 +52,10 @@
       </trans-unit>
       <trans-unit id=" (%@)" xml:space="preserve">
         <source> (%@)</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id=" (x%@)" xml:space="preserve">
+        <source> (x%@)</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id=" + " xml:space="preserve">
@@ -184,6 +188,14 @@
         <target>%@ получено урона</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="%@ per %@" xml:space="preserve">
+        <source>%1$@ per %2$@</source>
+        <note>price per period</note>
+      </trans-unit>
+      <trans-unit id="%@ skills (%@)" xml:space="preserve">
+        <source>%1$@ skills (%2$@)</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="%@ skills in queue (%@)" xml:space="preserve">
         <source>%1$@ skills in queue (%2$@)</source>
         <target>%1$@ навыков в очереди (%2$@)</target>
@@ -215,6 +227,22 @@
         <source>%@: </source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="%d days" xml:space="preserve">
+        <source>%d days</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="%d months" xml:space="preserve">
+        <source>%d months</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="%d weeks" xml:space="preserve">
+        <source>%d weeks</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="%d years" xml:space="preserve">
+        <source>%d years</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id=")" xml:space="preserve">
         <source>)</source>
         <note>No comment provided by engineer.</note>
@@ -230,6 +258,13 @@
       </trans-unit>
       <trans-unit id="-" xml:space="preserve">
         <source>-</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="- Remove ads from every screen&#10;- Remove ads across all devices with the same Apple ID" xml:space="preserve">
+        <source>- Remove ads from every screen
+- Remove ads across all devices with the same Apple ID</source>
+        <target>- Удалить рекламу со всех экранов приложения
+- Удалить рекламу на всех устройствах с одним Apple ID</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="/" xml:space="preserve">
@@ -341,6 +376,13 @@
       <trans-unit id="Add to Skill Plan" xml:space="preserve">
         <source>Add to Skill Plan</source>
         <target>Добавить в план обучения</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Add your first&#10;EVE Oline Account" xml:space="preserve">
+        <source>Add your first
+EVE Oline Account</source>
+        <target>Добавьте ваш первый
+EVE Oline аккаунт</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Affecting Skills" xml:space="preserve">
@@ -559,6 +601,11 @@
         <target>БОЕПРИПАСЫ</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="COMPLETED" xml:space="preserve">
+        <source>COMPLETED</source>
+        <target>ЗАВЕРШЕНО</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="CORPORATIONS" xml:space="preserve">
         <source>CORPORATIONS</source>
         <target>КОРПОРАЦИИ</target>
@@ -669,8 +716,18 @@
         <target>Закрыть</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Compose Mail" xml:space="preserve">
+        <source>Compose Mail</source>
+        <target>Написать письмо</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Conflux" xml:space="preserve">
         <source>Conflux</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Continue" xml:space="preserve">
+        <source>Continue</source>
+        <target>Продолжить</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Contracts" xml:space="preserve">
@@ -761,6 +818,11 @@
         <target>УЦЕЛЕЛО</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Damage Pattern" xml:space="preserve">
+        <source>Damage Pattern</source>
+        <target>Шаблон урона</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Damage Patterns" xml:space="preserve">
         <source>Damage Patterns</source>
         <target>Шаблоны урона</target>
@@ -846,6 +908,21 @@
         <target>Снять выбор</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Discard Changes" xml:space="preserve">
+        <source>Discard Changes</source>
+        <target>Отменить изменения</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Donate %@" xml:space="preserve">
+        <source>Donate %@</source>
+        <target>Пожертвовать %@</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Donation" xml:space="preserve">
+        <source>Donation</source>
+        <target>Пожертвование</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Drafts" xml:space="preserve">
         <source>Drafts</source>
         <target>Черновики</target>
@@ -908,6 +985,16 @@
       <trans-unit id="Exit WH" xml:space="preserve">
         <source>Exit WH</source>
         <target>Выход</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Expired" xml:space="preserve">
+        <source>Expired</source>
+        <target>Истекло</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Expires %@" xml:space="preserve">
+        <source>Expires %@</source>
+        <target>Истекает %@</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Expires in %@" xml:space="preserve">
@@ -1005,6 +1092,11 @@
         <target>Начиная с даты</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="From:" xml:space="preserve">
+        <source>From:</source>
+        <target>От:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="G" xml:space="preserve">
         <source>G</source>
         <note>giga SI prefix</note>
@@ -1032,6 +1124,10 @@
         <source>HP/s</source>
         <target>HP/с</target>
         <note>hpPerSecond</note>
+      </trans-unit>
+      <trans-unit id="Handoff" xml:space="preserve">
+        <source>Handoff</source>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Hangar" xml:space="preserve">
         <source>Hangar</source>
@@ -1067,6 +1163,11 @@
       </trans-unit>
       <trans-unit id="ISK:" xml:space="preserve">
         <source>ISK:</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="If you used Neocom before, you can import your data from iCloud." xml:space="preserve">
+        <source>If you used Neocom before, you can import your data from iCloud.</source>
+        <target>Если вы пользовались Neocom ранее, вы можете импортировать ваши данные из iCloud</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Implant" xml:space="preserve">
@@ -1267,6 +1368,16 @@
         <target>Уровень</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Lifetime" xml:space="preserve">
+        <source>Lifetime</source>
+        <target>Пожизненно</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Lifetime Subscription" xml:space="preserve">
+        <source>Lifetime Subscription</source>
+        <target>Пожизненная подписка</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Light" xml:space="preserve">
         <source>Light</source>
         <target>Легкие</target>
@@ -1369,6 +1480,21 @@
         <target>Почта</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Make Active" xml:space="preserve">
+        <source>Make Active</source>
+        <target>Сделать активным</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Make Donation" xml:space="preserve">
+        <source>Make Donation</source>
+        <target>Сделать пожертвование</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Manage Subscriptions" xml:space="preserve">
+        <source>Manage Subscriptions</source>
+        <target>Управление подписками</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Market" xml:space="preserve">
         <source>Market</source>
         <target>Рынок</target>
@@ -1468,6 +1594,16 @@
         <target>Модули</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="More Devices" xml:space="preserve">
+        <source>More Devices</source>
+        <target>Больше устройств</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Multilanguage" xml:space="preserve">
+        <source>Multilanguage</source>
+        <target>Мультиязычность</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="My" xml:space="preserve">
         <source>My</source>
         <target>Мои</target>
@@ -1504,6 +1640,11 @@
         <source>Neocom</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Neocom is ready to use." xml:space="preserve">
+        <source>Neocom is ready to use.</source>
+        <target>Neocom готов к использованию.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Neural Remap Available" xml:space="preserve">
         <source>Neural Remap Available</source>
         <target>Перераспределение доступно</target>
@@ -1512,6 +1653,11 @@
       <trans-unit id="New Loadout" xml:space="preserve">
         <source>New Loadout</source>
         <target>Новое оснащение</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="New Skill Plan" xml:space="preserve">
+        <source>New Skill Plan</source>
+        <target>Новый план обучения</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="No" xml:space="preserve">
@@ -1566,11 +1712,22 @@
       </trans-unit>
       <trans-unit id="Notifications Enabled" xml:space="preserve">
         <source>Notifications Enabled</source>
+        <target>Уведомления включены</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Now" xml:space="preserve">
         <source>Now</source>
         <target>сейчас</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Now available on iPhone, iPad and Mac." xml:space="preserve">
+        <source>Now available on iPhone, iPad and Mac.</source>
+        <target>Теперь доступно на iPhone, iPad и Mac.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Now supports Light/Dark themes." xml:space="preserve">
+        <source>Now supports Light/Dark themes.</source>
+        <target>Теперь поддерживаются светлая/темная темы.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Null-Sec" xml:space="preserve">
@@ -1581,6 +1738,10 @@
         <source>OCT</source>
         <target>ОКТ</target>
         <note>Month Abbreviation</note>
+      </trans-unit>
+      <trans-unit id="OK" xml:space="preserve">
+        <source>OK</source>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="OPTIMAL: %@" xml:space="preserve">
         <source>OPTIMAL: %@</source>
@@ -1670,6 +1831,10 @@
       <trans-unit id="Passive Recharge Rate" xml:space="preserve">
         <source>Passive Recharge Rate</source>
         <target>Пассивная регенерация</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Payment will be charged to iTunes Account at confirmation of purchase. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Account will be charged for renewal within 24-hours prior to the end of the current period. Auto-renew option can be turned off in iTunes Account Settings." xml:space="preserve">
+        <source>Payment will be charged to iTunes Account at confirmation of purchase. Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Account will be charged for renewal within 24-hours prior to the end of the current period. Auto-renew option can be turned off in iTunes Account Settings.</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Per Item" xml:space="preserve">
@@ -1805,6 +1970,11 @@
         <source>Red Alert</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Redesigned" xml:space="preserve">
+        <source>Redesigned</source>
+        <target>Новый дизайн</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Redoubt" xml:space="preserve">
         <source>Redoubt</source>
         <note>No comment provided by engineer.</note>
@@ -1824,6 +1994,26 @@
         <target>Отклонен</target>
         <note>ESI.ContractStatus</note>
       </trans-unit>
+      <trans-unit id="Remember to cancel any auto-renewable subscriptions." xml:space="preserve">
+        <source>Remember to cancel any auto-renewable subscriptions.</source>
+        <target>Не забудьте отменить автовозобновляемые подписки.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Remove Ads" xml:space="preserve">
+        <source>Remove Ads</source>
+        <target>Убрать рекламу</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Remove Ads Subscription" xml:space="preserve">
+        <source>Remove Ads Subscription</source>
+        <target>Подписка: убрать рекламу</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Rename" xml:space="preserve">
+        <source>Rename</source>
+        <target>Переименовать</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Repair Rate" xml:space="preserve">
         <source>Repair Rate</source>
         <target>Темп ремонта</target>
@@ -1842,6 +2032,16 @@
       <trans-unit id="Requirements" xml:space="preserve">
         <source>Requirements</source>
         <target>Требования</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Restore Completed" xml:space="preserve">
+        <source>Restore Completed</source>
+        <target>Восстановление завершено</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Restore Purchases" xml:space="preserve">
+        <source>Restore Purchases</source>
+        <target>Восстановить покупки</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Reversed" xml:space="preserve">
@@ -1944,9 +2144,19 @@
         <target>СТРУКТУРЫ</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="SUBSCRIPTION PLANS" xml:space="preserve">
+        <source>SUBSCRIPTION PLANS</source>
+        <target>ПЛАНЫ ПОДПИСОК</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Save" xml:space="preserve">
         <source>Save</source>
         <target>Сохранить</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Save Draft" xml:space="preserve">
+        <source>Save Draft</source>
+        <target>Сохранить черновик</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Save In-Game" xml:space="preserve">
@@ -1999,16 +2209,24 @@
         <target>Выберите минимум один фильтр</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Select your preferred language for the EVE Online Database." xml:space="preserve">
+        <source>Select your preferred language for the EVE Online Database.</source>
+        <target>Выберите язык базы данных EVE Online.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Selected %@ Accounts" xml:space="preserve">
         <source>Selected %@ Accounts</source>
+        <target>Выбрано %@ аккаунтов</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Selected %@ Accounts and %@ Loadouts" xml:space="preserve">
         <source>Selected %1$@ Accounts and %2$@ Loadouts</source>
+        <target>Выбрано %1$@ аккаунтов и %2$@ оснасток</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Selected %@ Loadouts" xml:space="preserve">
         <source>Selected %@ Loadouts</source>
+        <target>Выбрано %@ оснасток</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Sell" xml:space="preserve">
@@ -2084,6 +2302,11 @@
         <target>Информация о навыке</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Skill Plan is empty" xml:space="preserve">
+        <source>Skill Plan is empty</source>
+        <target>План обучения пуст</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Skill Plans" xml:space="preserve">
         <source>Skill Plans</source>
         <target>Планы обучения</target>
@@ -2149,13 +2372,19 @@
         <target>Стабильно:</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Start" xml:space="preserve">
-        <source>Start</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="Start Location" xml:space="preserve">
         <source>Start Location</source>
         <target>Пункт отправления</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Start Now" xml:space="preserve">
+        <source>Start Now</source>
+        <target>Начать</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Start edit your loadout on iPhone and continue on Mac." xml:space="preserve">
+        <source>Start edit your loadout on iPhone and continue on Mac.</source>
+        <target>Начните редактировать вашу оснастку на iPhone и продолжите на Mac</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Stats" xml:space="preserve">
@@ -2176,6 +2405,21 @@
       <trans-unit id="Structures" xml:space="preserve">
         <source>Structures</source>
         <target>Структуры</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Subject" xml:space="preserve">
+        <source>Subject</source>
+        <target>Тема</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Subject: " xml:space="preserve">
+        <source>Subject: </source>
+        <target>Тема: </target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Subscriptions" xml:space="preserve">
+        <source>Subscriptions</source>
+        <target>Подписки</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Subsystem Slot" xml:space="preserve">
@@ -2235,6 +2479,11 @@
         <target>Тф</target>
         <note>teraflops</note>
       </trans-unit>
+      <trans-unit id="Tha language of the game database assets (ships, modules, their names and descriptions)." xml:space="preserve">
+        <source>Tha language of the game database assets (ships, modules, their names and descriptions).</source>
+        <target>Язык базы данных (корабли, модули, их названия и описание).</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Thera" xml:space="preserve">
         <source>Thera</source>
         <note>No comment provided by engineer.</note>
@@ -2254,6 +2503,11 @@
         <target>Время до истощения:</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Tired of seeing those pesky ads? Why not upgrade to an Ad Free Subscription!" xml:space="preserve">
+        <source>Tired of seeing those pesky ads? Why not upgrade to an Ad Free Subscription!</source>
+        <target>Надоело смотреть эти надоедливые рекламные объявления? Почему бы не приобрести платную подписку?</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Title" xml:space="preserve">
         <source>Title</source>
         <target>Заголовок</target>
@@ -2267,6 +2521,10 @@
       <trans-unit id="To:" xml:space="preserve">
         <source>To:</source>
         <target>Кому:</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="To: " xml:space="preserve">
+        <source>To: </source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Toggle" xml:space="preserve">
@@ -2482,6 +2740,16 @@
         <target>Орудия</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Welcome" xml:space="preserve">
+        <source>Welcome</source>
+        <target>Добро пожаловть</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Welcome to" xml:space="preserve">
+        <source>Welcome to</source>
+        <target>Добро пожаловать в</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Willpower" xml:space="preserve">
         <source>Willpower</source>
         <target>Сила воли</target>
@@ -2509,6 +2777,16 @@
       <trans-unit id="Yield (units/h):" xml:space="preserve">
         <source>Yield (units/h):</source>
         <target>Производство (ед./ч):</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="You can now use Neocom without any restrictions on all devices for unlimited time. But you can make a donation to support the development." xml:space="preserve">
+        <source>You can now use Neocom without any restrictions on all devices for unlimited time. But you can make a donation to support the development.</source>
+        <target>Теперь вы можете использовать Neocom без ограничений на всех устройствах неограниченное время. Но вы все еще можете поддержать разработку сделав пожертвование</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Your previous purchases are being restored. Thank you!" xml:space="preserve">
+        <source>Your previous purchases are being restored. Thank you!</source>
+        <target>Ваши покупки восстановлены. Спасибо</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[%@)]" xml:space="preserve">
@@ -2616,6 +2894,133 @@
       <trans-unit id="| %@" xml:space="preserve">
         <source>| %@</source>
         <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Neocom/en.lproj/Localizable.stringsdict" source-language="en" target-language="ru" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+    </header>
+    <body>
+      <trans-unit id="/%d days:dict/NSStringLocalizedFormatKey:dict/:string" xml:space="preserve">
+        <source>%#@numberOfDays@</source>
+        <target>%#@numberOfDays@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d days:dict/numberOfDays:dict/few:dict/:string" xml:space="preserve">
+        <source>%d days</source>
+        <target>%d дней</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d days:dict/numberOfDays:dict/many:dict/:string" xml:space="preserve">
+        <source>%d days</source>
+        <target>%d дней</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d days:dict/numberOfDays:dict/one:dict/:string" xml:space="preserve">
+        <source>one day</source>
+        <target>один день</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d days:dict/numberOfDays:dict/other:dict/:string" xml:space="preserve">
+        <source>%d days</source>
+        <target>%d дней</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d days:dict/numberOfDays:dict/zero:dict/:string" xml:space="preserve">
+        <source>%d days</source>
+        <target>%d дней</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d months:dict/NSStringLocalizedFormatKey:dict/:string" xml:space="preserve">
+        <source>%#@numberOfMonths@</source>
+        <target>%#@numberOfMonths@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d months:dict/numberOfMonths:dict/few:dict/:string" xml:space="preserve">
+        <source>%d months</source>
+        <target>%d месяцев</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d months:dict/numberOfMonths:dict/many:dict/:string" xml:space="preserve">
+        <source>%d months</source>
+        <target>%d месяцев</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d months:dict/numberOfMonths:dict/one:dict/:string" xml:space="preserve">
+        <source>one month</source>
+        <target>один месяц</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d months:dict/numberOfMonths:dict/other:dict/:string" xml:space="preserve">
+        <source>%d months</source>
+        <target>%d месяцев</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d months:dict/numberOfMonths:dict/zero:dict/:string" xml:space="preserve">
+        <source>%d months</source>
+        <target>%d месяцев</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d weeks:dict/NSStringLocalizedFormatKey:dict/:string" xml:space="preserve">
+        <source>%#@numberOfWeeks@</source>
+        <target>%#@numberOfWeeks@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d weeks:dict/numberOfWeeks:dict/few:dict/:string" xml:space="preserve">
+        <source>%d weeks</source>
+        <target>%d недель</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d weeks:dict/numberOfWeeks:dict/many:dict/:string" xml:space="preserve">
+        <source>%d weeks</source>
+        <target>%d недель</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d weeks:dict/numberOfWeeks:dict/one:dict/:string" xml:space="preserve">
+        <source>one week</source>
+        <target>одна неделя</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d weeks:dict/numberOfWeeks:dict/other:dict/:string" xml:space="preserve">
+        <source>%d weeks</source>
+        <target>%d недель</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d weeks:dict/numberOfWeeks:dict/zero:dict/:string" xml:space="preserve">
+        <source>%d weeks</source>
+        <target>%d недель</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d years:dict/NSStringLocalizedFormatKey:dict/:string" xml:space="preserve">
+        <source>%#@numberOfYears@</source>
+        <target>%#@numberOfYears@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d years:dict/numberOfYears:dict/few:dict/:string" xml:space="preserve">
+        <source>%d years</source>
+        <target>%d лет</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d years:dict/numberOfYears:dict/many:dict/:string" xml:space="preserve">
+        <source>%d years</source>
+        <target>%d лет</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d years:dict/numberOfYears:dict/one:dict/:string" xml:space="preserve">
+        <source>one year</source>
+        <target>один год</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d years:dict/numberOfYears:dict/other:dict/:string" xml:space="preserve">
+        <source>%d years</source>
+        <target>%d лет</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="/%d years:dict/numberOfYears:dict/zero:dict/:string" xml:space="preserve">
+        <source>%d years</source>
+        <target>%d лет</target>
+        <note/>
       </trans-unit>
     </body>
   </file>
