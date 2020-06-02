@@ -77,7 +77,7 @@
       </trans-unit>
       <trans-unit id=" from " xml:space="preserve">
         <source> from </source>
-        <target> время жизни: </target>
+        <target> от </target>
         <note>E.g.: 100 ISK from [PlayerName]</note>
       </trans-unit>
       <trans-unit id=" lifetime: " xml:space="preserve">
@@ -180,7 +180,7 @@
       </trans-unit>
       <trans-unit id="%@ damage done (final blow)" xml:space="preserve">
         <source>%@ damage done (final blow)</source>
-        <target>%@ нанесено урона (последний удар)</target>
+        <target>%@ нанесено урона (последний выстрел)</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="%@ damage taken" xml:space="preserve">
@@ -190,10 +190,12 @@
       </trans-unit>
       <trans-unit id="%@ per %@" xml:space="preserve">
         <source>%1$@ per %2$@</source>
+        <target>%1$@ за %2$@</target>
         <note>price per period</note>
       </trans-unit>
       <trans-unit id="%@ skills (%@)" xml:space="preserve">
         <source>%1$@ skills (%2$@)</source>
+        <target>%1$@ навыков (%2$@)</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="%@ skills in queue (%@)" xml:space="preserve">
@@ -435,10 +437,6 @@ EVE Oline аккаунт</target>
         <target>Эффекты окружения</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Artem Valiant" xml:space="preserve">
-        <source>Artem Valiant</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="Assets" xml:space="preserve">
         <source>Assets</source>
         <target>Хранилище</target>
@@ -453,6 +451,11 @@ EVE Oline аккаунт</target>
         <source>Auction</source>
         <target>Аукцион</target>
         <note>ESI.ContractType</note>
+      </trans-unit>
+      <trans-unit id="Auto-renewable subscription" xml:space="preserve">
+        <source>Auto-renewable subscription</source>
+        <target>Автовозобновляемая подписка</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Availability" xml:space="preserve">
         <source>Availability</source>
@@ -738,6 +741,11 @@ EVE Oline аккаунт</target>
       <trans-unit id="Copy" xml:space="preserve">
         <source>Copy</source>
         <target>Копировать</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Copy to Clipboard" xml:space="preserve">
+        <source>Copy to Clipboard</source>
+        <target>Скопировать в буфер обмена</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Corporation" xml:space="preserve">
@@ -1167,7 +1175,7 @@ EVE Oline аккаунт</target>
       </trans-unit>
       <trans-unit id="If you used Neocom before, you can import your data from iCloud." xml:space="preserve">
         <source>If you used Neocom before, you can import your data from iCloud.</source>
-        <target>Если вы пользовались Neocom ранее, вы можете импортировать ваши данные из iCloud</target>
+        <target>Если вы пользовались Neocom ранее, вы можете импортировать ваши данные из iCloud.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Implant" xml:space="preserve">
@@ -1183,6 +1191,11 @@ EVE Oline аккаунт</target>
       <trans-unit id="Implants" xml:space="preserve">
         <source>Implants</source>
         <target>Импланты</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Import from clipboard" xml:space="preserve">
+        <source>Import from clipboard</source>
+        <target>Импортировать из буфера обмена</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="In Progress" xml:space="preserve">
@@ -1632,10 +1645,6 @@ EVE Oline аккаунт</target>
         <target>Имя</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Necrorise Squadron" xml:space="preserve">
-        <source>Necrorise Squadron</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="Neocom" xml:space="preserve">
         <source>Neocom</source>
         <note>No comment provided by engineer.</note>
@@ -1758,6 +1767,11 @@ EVE Oline аккаунт</target>
         <target>Ок</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="One-time purchase" xml:space="preserve">
+        <source>One-time purchase</source>
+        <target>Разовая покупка</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Online" xml:space="preserve">
         <source>Online</source>
         <target>Онлайн</target>
@@ -1872,10 +1886,6 @@ EVE Oline аккаунт</target>
         <target>Пожалуйста, авторизуйтесь в iCloud</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Present" xml:space="preserve">
-        <source>Present</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="Price" xml:space="preserve">
         <source>Price</source>
         <target>Цена</target>
@@ -1966,10 +1976,6 @@ EVE Oline аккаунт</target>
         <target>Перезарядка:</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Red Alert" xml:space="preserve">
-        <source>Red Alert</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="Redesigned" xml:space="preserve">
         <source>Redesigned</source>
         <target>Новый дизайн</target>
@@ -2055,10 +2061,6 @@ EVE Oline аккаунт</target>
       </trans-unit>
       <trans-unit id="Rig Slot" xml:space="preserve">
         <source>Rig Slot</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Root" xml:space="preserve">
-        <source>Root</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Runs per Copy: " xml:space="preserve">
@@ -2384,7 +2386,7 @@ EVE Oline аккаунт</target>
       </trans-unit>
       <trans-unit id="Start edit your loadout on iPhone and continue on Mac." xml:space="preserve">
         <source>Start edit your loadout on iPhone and continue on Mac.</source>
-        <target>Начните редактировать вашу оснастку на iPhone и продолжите на Mac</target>
+        <target>Начните редактировать вашу оснастку на iPhone и продолжите на Mac.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Stats" xml:space="preserve">
@@ -2525,10 +2527,6 @@ EVE Oline аккаунт</target>
       </trans-unit>
       <trans-unit id="To: " xml:space="preserve">
         <source>To: </source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Toggle" xml:space="preserve">
-        <source>Toggle</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Total" xml:space="preserve">
@@ -2781,12 +2779,12 @@ EVE Oline аккаунт</target>
       </trans-unit>
       <trans-unit id="You can now use Neocom without any restrictions on all devices for unlimited time. But you can make a donation to support the development." xml:space="preserve">
         <source>You can now use Neocom without any restrictions on all devices for unlimited time. But you can make a donation to support the development.</source>
-        <target>Теперь вы можете использовать Neocom без ограничений на всех устройствах неограниченное время. Но вы все еще можете поддержать разработку сделав пожертвование</target>
+        <target>Теперь вы можете использовать Neocom без ограничений на всех устройствах неограниченное время. Но вы все еще можете поддержать разработку сделав пожертвование.</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Your previous purchases are being restored. Thank you!" xml:space="preserve">
         <source>Your previous purchases are being restored. Thank you!</source>
-        <target>Ваши покупки восстановлены. Спасибо</target>
+        <target>Ваши покупки восстановлены. Спасибо!</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="[%@)]" xml:space="preserve">
@@ -2875,7 +2873,6 @@ EVE Oline аккаунт</target>
       </trans-unit>
       <trans-unit id="x%@" xml:space="preserve">
         <source>x%@</source>
-        <target/>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="zKillboard" xml:space="preserve">

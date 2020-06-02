@@ -24,7 +24,6 @@
     <body>
       <trans-unit id=" " xml:space="preserve">
         <source> </source>
-        <target> </target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id=" %@" xml:space="preserve">
@@ -436,10 +435,6 @@ EVE Oline Account</source>
         <target>Bereichseffekte</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Artem Valiant" xml:space="preserve">
-        <source>Artem Valiant</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="Assets" xml:space="preserve">
         <source>Assets</source>
         <target>Besitztümer</target>
@@ -454,6 +449,10 @@ EVE Oline Account</source>
         <source>Auction</source>
         <target>Auktion</target>
         <note>ESI.ContractType</note>
+      </trans-unit>
+      <trans-unit id="Auto-renewable subscription" xml:space="preserve">
+        <source>Auto-renewable subscription</source>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Availability" xml:space="preserve">
         <source>Availability</source>
@@ -740,6 +739,10 @@ EVE Oline Account</source>
       <trans-unit id="Copy" xml:space="preserve">
         <source>Copy</source>
         <target>Kopieren</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Copy to Clipboard" xml:space="preserve">
+        <source>Copy to Clipboard</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Corporation" xml:space="preserve">
@@ -1185,6 +1188,10 @@ EVE Oline Account</source>
       <trans-unit id="Implants" xml:space="preserve">
         <source>Implants</source>
         <target>Implantate</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Import from clipboard" xml:space="preserve">
+        <source>Import from clipboard</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="In Progress" xml:space="preserve">
@@ -1635,10 +1642,6 @@ EVE Oline Account</source>
         <target>Name</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Necrorise Squadron" xml:space="preserve">
-        <source>Necrorise Squadron</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="Neocom" xml:space="preserve">
         <source>Neocom</source>
         <target>Neocom</target>
@@ -1759,6 +1762,10 @@ EVE Oline Account</source>
         <target>Ok</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="One-time purchase" xml:space="preserve">
+        <source>One-time purchase</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Online" xml:space="preserve">
         <source>Online</source>
         <target>Online</target>
@@ -1873,11 +1880,6 @@ EVE Oline Account</source>
         <target>Bitte melden Sie sich bei Ihrem iCloud-Konto an</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Present" xml:space="preserve">
-        <source>Present</source>
-        <target>Jetzt</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="Price" xml:space="preserve">
         <source>Price</source>
         <target>Preis</target>
@@ -1968,11 +1970,6 @@ EVE Oline Account</source>
         <target>Aufladen:</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Red Alert" xml:space="preserve">
-        <source>Red Alert</source>
-        <target>Alarmstufe Rot</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="Redesigned" xml:space="preserve">
         <source>Redesigned</source>
         <note>No comment provided by engineer.</note>
@@ -2054,11 +2051,6 @@ EVE Oline Account</source>
       <trans-unit id="Rig Slot" xml:space="preserve">
         <source>Rig Slot</source>
         <target>Modifikationsslot</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Root" xml:space="preserve">
-        <source>Root</source>
-        <target>Ursprung</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Runs per Copy: " xml:space="preserve">
@@ -2522,11 +2514,6 @@ EVE Oline Account</source>
       </trans-unit>
       <trans-unit id="To: " xml:space="preserve">
         <source>To: </source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Toggle" xml:space="preserve">
-        <source>Toggle</source>
-        <target>Umschalten</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Total" xml:space="preserve">
