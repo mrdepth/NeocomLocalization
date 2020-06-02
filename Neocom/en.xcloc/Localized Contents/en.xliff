@@ -311,6 +311,21 @@
         <target>0.0 System</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="1 Hour Left" xml:space="preserve">
+        <source>1 Hour Left</source>
+        <target>1 Hour Left</target>
+        <note>Skill queue notifications</note>
+      </trans-unit>
+      <trans-unit id="4 Hours Left" xml:space="preserve">
+        <source>4 Hours Left</source>
+        <target>4 Hours Left</target>
+        <note>Skill queue notifications</note>
+      </trans-unit>
+      <trans-unit id="24 Hours Left" xml:space="preserve">
+        <source>24 Hours Left</source>
+        <target>24 Hours Left</target>
+        <note>Skill queue notifications</note>
+      </trans-unit>
       <trans-unit id="70%" xml:space="preserve">
         <source>70%</source>
         <target>70%</target>
@@ -1267,6 +1282,11 @@ EVE Oline Account</target>
         <source>Inactive</source>
         <target>Inactive</target>
         <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Inactive Skill Queue" xml:space="preserve">
+        <source>Inactive Skill Queue</source>
+        <target>Inactive Skill Queue</target>
+        <note>Skill queue notifications</note>
       </trans-unit>
       <trans-unit id="Incursions" xml:space="preserve">
         <source>Incursions</source>
@@ -2391,7 +2411,7 @@ EVE Oline Account</target>
       <trans-unit id="Skill Training Complete" xml:space="preserve">
         <source>Skill Training Complete</source>
         <target>Skill Training Complete</target>
-        <note>No comment provided by engineer.</note>
+        <note>Skill queue notifications</note>
       </trans-unit>
       <trans-unit id="Skill queue is empty" xml:space="preserve">
         <source>Skill queue is empty</source>

@@ -72,7 +72,7 @@
       </trans-unit>
       <trans-unit id=" accuracy: " xml:space="preserve">
         <source> accuracy: </source>
-        <target>меткость</target>
+        <target> меткость: </target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id=" from " xml:space="preserve">
@@ -276,6 +276,21 @@
       <trans-unit id="0.0 System" xml:space="preserve">
         <source>0.0 System</source>
         <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="1 Hour Left" xml:space="preserve">
+        <source>1 Hour Left</source>
+        <target>Остался 1 час</target>
+        <note>Skill queue notifications</note>
+      </trans-unit>
+      <trans-unit id="4 Hours Left" xml:space="preserve">
+        <source>4 Hours Left</source>
+        <target>Осталось 4 часа</target>
+        <note>Skill queue notifications</note>
+      </trans-unit>
+      <trans-unit id="24 Hours Left" xml:space="preserve">
+        <source>24 Hours Left</source>
+        <target>Осталось 24 часа</target>
+        <note>Skill queue notifications</note>
       </trans-unit>
       <trans-unit id="70%" xml:space="preserve">
         <source>70%</source>
@@ -1218,6 +1233,11 @@ EVE Oline аккаунт</target>
         <target>Неактивный</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Inactive Skill Queue" xml:space="preserve">
+        <source>Inactive Skill Queue</source>
+        <target>Очередь обучения неактивна</target>
+        <note>Skill queue notifications</note>
+      </trans-unit>
       <trans-unit id="Incursions" xml:space="preserve">
         <source>Incursions</source>
         <target>Вторжения</target>
@@ -1314,7 +1334,7 @@ EVE Oline аккаунт</target>
       </trans-unit>
       <trans-unit id="Kill Reports" xml:space="preserve">
         <source>Kill Reports</source>
-        <target>Боевой журналы</target>
+        <target>Боевой журнал</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Killmail" xml:space="preserve">
@@ -2322,7 +2342,7 @@ EVE Oline аккаунт</target>
       <trans-unit id="Skill Training Complete" xml:space="preserve">
         <source>Skill Training Complete</source>
         <target>Изучение завершено</target>
-        <note>No comment provided by engineer.</note>
+        <note>Skill queue notifications</note>
       </trans-unit>
       <trans-unit id="Skill queue is empty" xml:space="preserve">
         <source>Skill queue is empty</source>
